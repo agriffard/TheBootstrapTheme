@@ -1,10 +1,10 @@
 {
-  "name": "TheBootstrapTheme",
-  "displayName": "Bootstrap",
+  "name": "Bootstrap",
+  "displayName": "The Bootstrap Theme",
   "description": "Provides a Bootstrap theme.",
   "author": "Antoine Griffard",
   "website": "http://antoinegriffard.com",
-  "version": "1.0-rc1",
+  "version": "1.0.0",
   "issetuprecipe": true,
   "categories": [
     "default"
@@ -13,6 +13,7 @@
     "bootstrap"
   ],
   "steps": [
+    //feature
     {
       "name": "Feature",
       "enable": [
@@ -69,11 +70,13 @@
         "TheBootstrapTheme"
       ]
     },
+    //themes
     {
       "name": "themes",
       "admin": "TheAdmin",
       "site": "TheBootstrapTheme"
     },
+    //ContentDefinition
     {
       "name": "ContentDefinition",
       "ContentTypes": [
@@ -2090,21 +2093,18 @@
         }
       ]
     },
+    //Content
     {
       "name": "Content",
       "data": [
         {
           "ContentItemId": "4chwn6kqvb49c2phc6hhzt71c6",
-          "ContentItemVersionId": "49hcfjqk4qfbxzj12v13s5y2c1",
           "ContentType": "TeamMember",
           "DisplayText": "Team Member 1",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T13:09:42.0006515Z",
-          "PublishedUtc": "2019-04-23T13:09:42.0846406Z",
-          "CreatedUtc": "2019-04-23T13:09:42.0846406Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "TeamMember": {
             "Position": {
               "Text": "Position"
@@ -2125,16 +2125,12 @@
         },
         {
           "ContentItemId": "421n57k9mvdh877tjcvem1rqwd",
-          "ContentItemVersionId": "4beewv8s16gwdvr7ch54wnmfdz",
           "ContentType": "TeamMember",
           "DisplayText": "Team Member 2",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T13:10:04.9021514Z",
-          "PublishedUtc": "2019-04-23T13:10:04.91082Z",
-          "CreatedUtc": "2019-04-23T13:10:04.91082Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "TeamMember": {
             "Position": {
               "Text": "Position"
@@ -2155,16 +2151,12 @@
         },
         {
           "ContentItemId": "4v1f9791gwzgys4w5e19rfbvx6",
-          "ContentItemVersionId": "44pp1y6j0jhz1xt0968cy2mgc6",
           "ContentType": "TeamMember",
           "DisplayText": "Team Member 3",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T13:10:34.6044136Z",
-          "PublishedUtc": "2019-04-23T13:10:34.6110092Z",
-          "CreatedUtc": "2019-04-23T13:10:34.6110092Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "TeamMember": {
             "Position": {
               "Text": "Position"
@@ -2185,16 +2177,12 @@
         },
         {
           "ContentItemId": "4nyecy7fvj4k05jcaaybepbdce",
-          "ContentItemVersionId": "4t8t5pc8xx6bn4446fesn93rw6",
           "ContentType": "Card",
           "DisplayText": "Card Title 1",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T13:33:20.7669312Z",
-          "PublishedUtc": "2019-04-23T13:33:20.776114Z",
-          "CreatedUtc": "2019-04-23T13:33:20.776114Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Card": {
             "Description": {
               "Text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
@@ -2214,16 +2202,12 @@
         },
         {
           "ContentItemId": "4ny7y89tj3378zspe15zhmv9x7",
-          "ContentItemVersionId": "4e4r12zeqmkj46wjakzqcwkymk",
           "ContentType": "Card",
           "DisplayText": "Card Title 2",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T13:34:03.2536292Z",
-          "PublishedUtc": "2019-04-23T13:34:03.2629582Z",
-          "CreatedUtc": "2019-04-23T13:34:03.2629582Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Card": {
             "Description": {
               "Text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
@@ -2243,16 +2227,12 @@
         },
         {
           "ContentItemId": "4n13eykqxmrwqt2v6dqjfm6vcd",
-          "ContentItemVersionId": "4qx6c6xdyqb1p1cprdn86epn55",
           "ContentType": "Card",
           "DisplayText": "Card Title 3",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T13:34:40.8000203Z",
-          "PublishedUtc": "2019-04-23T13:34:40.8063296Z",
-          "CreatedUtc": "2019-04-23T13:34:40.8063296Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Card": {
             "Description": {
               "Text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
@@ -2272,16 +2252,12 @@
         },
         {
           "ContentItemId": "40e9kz790pvhc7dkz1g2gnnh5x",
-          "ContentItemVersionId": "40crts499k5jy41sdnp28cnv5z",
           "ContentType": "Portfolio",
           "DisplayText": "Portfolio 1",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T13:54:23.3006388Z",
-          "PublishedUtc": "2019-04-23T13:54:23.3045483Z",
-          "CreatedUtc": "2019-04-23T13:54:23.3045483Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Portfolio": {},
           "AutoroutePart": {
             "Path": "portfolio-1",
@@ -2297,16 +2273,12 @@
         },
         {
           "ContentItemId": "476seqpyyqc7hskr35bx615nx8",
-          "ContentItemVersionId": "44acnbf300s1rxg603pmjqy7cf",
           "ContentType": "Project",
           "DisplayText": "Project One",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T13:59:14.0748363Z",
-          "PublishedUtc": "2019-04-23T13:59:14.0824394Z",
-          "CreatedUtc": "2019-04-23T13:59:14.0824394Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Project": {
             "Description": {
               "Text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
@@ -2334,16 +2306,12 @@
         },
         {
           "ContentItemId": "4zxr16v6pddd83cna28d4q8s5k",
-          "ContentItemVersionId": "49xqgx9w2xvhp5wrf8w8xkn2df",
           "ContentType": "Project",
           "DisplayText": "Project Two",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T14:36:50.8986141Z",
-          "PublishedUtc": "2019-04-23T14:36:50.9148472Z",
-          "CreatedUtc": "2019-04-23T14:36:28.9685487Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Project": {
             "Description": {
               "Text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
@@ -2371,16 +2339,12 @@
         },
         {
           "ContentItemId": "4h2jcf88nm1wkxzrwmvtk24pw3",
-          "ContentItemVersionId": "4jy6nrtybryrrzy4hbk17qaqmk",
           "ContentType": "Project",
           "DisplayText": "Project Three",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T14:42:40.4575158Z",
-          "PublishedUtc": "2019-04-23T14:42:40.463293Z",
-          "CreatedUtc": "2019-04-23T14:42:40.463293Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Project": {
             "Description": {
               "Text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
@@ -2408,16 +2372,12 @@
         },
         {
           "ContentItemId": "48f7p1njvyrz125zx0dgf98jm3",
-          "ContentItemVersionId": "4wr1fmpac1769xxhra64nxmzm9",
           "ContentType": "Project",
           "DisplayText": "Project Four",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T14:43:08.0563174Z",
-          "PublishedUtc": "2019-04-23T14:43:08.061719Z",
-          "CreatedUtc": "2019-04-23T14:43:08.061719Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Project": {
             "Description": {
               "Text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
@@ -2445,16 +2405,12 @@
         },
         {
           "ContentItemId": "45khs7d9aat6405x2qxwbtfecx",
-          "ContentItemVersionId": "46td071w48vdszdjcpgmh3nzdy",
           "ContentType": "Project",
           "DisplayText": "Project Five",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T14:43:57.5438127Z",
-          "PublishedUtc": "2019-04-23T14:43:57.5497293Z",
-          "CreatedUtc": "2019-04-23T14:43:57.5497293Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Project": {
             "Description": {
               "Text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde."
@@ -2482,31 +2438,23 @@
         },
         {
           "ContentItemId": "4f146gcrxjvn3v5qqq86mcs2dm",
-          "ContentItemVersionId": "4kgy7jwxgee5gypsshh102ncn3",
           "ContentType": "FAQ",
           "DisplayText": "FAQ",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-04-23T15:26:59.0550029Z",
-          "PublishedUtc": "2019-04-23T15:26:59.0781842Z",
-          "CreatedUtc": "2019-04-23T15:12:52.2445746Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "FAQ": {},
           "BagPart": {
             "ContentItems": [
               {
                 "ContentItemId": "420gr9zd1mgs4xrb51bsdbdf4m",
-                "ContentItemVersionId": null,
                 "ContentType": "Item",
                 "DisplayText": "Collapsible Group Item #1",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-04-23T15:24:43.8664901Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "Item": {},
                 "HtmlBodyPart": {
                   "Html": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
@@ -2517,16 +2465,12 @@
               },
               {
                 "ContentItemId": "477kq5tkwz37wrjak39e75stmy",
-                "ContentItemVersionId": null,
                 "ContentType": "Item",
                 "DisplayText": "Collapsible Group Item #2",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-04-23T15:24:43.8721479Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "Item": {},
                 "HtmlBodyPart": {
                   "Html": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
@@ -2537,16 +2481,12 @@
               },
               {
                 "ContentItemId": "4nw2x8vqa9yp8xqqj667e7d05w",
-                "ContentItemVersionId": null,
                 "ContentType": "Item",
                 "DisplayText": "Collapsible Group Item #3",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-04-23T15:24:43.8769064Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "Item": {},
                 "HtmlBodyPart": {
                   "Html": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
@@ -2568,16 +2508,13 @@
             "ContentItems": [
               {
                 "ContentItemId": "4j6rh28r12aavy45gh1mb36wms",
-                "ContentItemVersionId": null,
                 "ContentType": "Item",
                 "DisplayText": "Collapsible Group Item #1",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-04-23T15:26:59.0680877Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
+
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "Item": {},
                 "HtmlBodyPart": {
                   "Html": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
@@ -2588,16 +2525,12 @@
               },
               {
                 "ContentItemId": "4vgyjyvtg37n14jggm8zwxz04e",
-                "ContentItemVersionId": null,
                 "ContentType": "Item",
                 "DisplayText": "Collapsible Group Item #2",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-04-23T15:26:59.0707038Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "Item": {},
                 "HtmlBodyPart": {
                   "Html": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
@@ -2608,16 +2541,12 @@
               },
               {
                 "ContentItemId": "4vntye5fk6cb46nbr2ahy789md",
-                "ContentItemVersionId": null,
                 "ContentType": "Item",
                 "DisplayText": "Collapsible Group Item #3",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-04-23T15:26:59.0734828Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "Item": {},
                 "HtmlBodyPart": {
                   "Html": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
@@ -2631,16 +2560,12 @@
         },
         {
           "ContentItemId": "4z117003sqdhz1ave6ynfex64e",
-          "ContentItemVersionId": "477sezcgbf0v96587k01gnvs5z",
           "ContentType": "Project",
           "DisplayText": "Project Six",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-05-01T14:09:11.6196708Z",
-          "PublishedUtc": "2019-05-01T14:09:11.6311189Z",
-          "CreatedUtc": "2019-05-01T14:09:11.6311189Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Project": {
             "Description": {
               "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
@@ -2668,16 +2593,12 @@
         },
         {
           "ContentItemId": "4zmzzzaygxda814pp2x18gr3da",
-          "ContentItemVersionId": "43hg5xvjn44hx5x8kd6js2jzny",
           "ContentType": "CardList",
           "DisplayText": "Services",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-05-01T15:03:57.4434529Z",
-          "PublishedUtc": "2019-05-01T15:03:57.4552102Z",
-          "CreatedUtc": "2019-04-23T13:32:05.9803169Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "CardList": {},
           "HtmlBodyPart": {
             "Html": "<ol class=\"breadcrumb\">\r\n      <li class=\"breadcrumb-item\">\r\n        <a href=\"/\">Home</a>\r\n      </li>\r\n      <li class=\"breadcrumb-item active\">Services</li>\r\n    </ol>\r\n<img class=\"img-fluid rounded mb-4\" src=\"http://placehold.it/1200x300\" alt=\"\">"
@@ -2696,16 +2617,12 @@
         },
         {
           "ContentItemId": "4s8kbhsv0gvw518ysq6hzc745b",
-          "ContentItemVersionId": "4tjn5mgg4cmvyvgcnrr7k62j5s",
           "ContentType": "Page",
           "DisplayText": "Welcome to Modern Business",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-06-11T12:29:47.9814867Z",
-          "PublishedUtc": "2019-06-11T12:29:48.1743064Z",
-          "CreatedUtc": "2019-04-18T18:26:54.4740587Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Page": {},
           "AutoroutePart": {
             "Path": "home",
@@ -2715,16 +2632,12 @@
             "Widgets": [
               {
                 "ContentItemId": "4v9v5q5mwhq522gdsvgm2dqvwy",
-                "ContentItemVersionId": null,
                 "ContentType": "LiquidWidget",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-06-11T12:29:48.1295238Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "LiquidWidget": {},
                 "LiquidPart": {
                   "Liquid": "{% assign cards = Queries.Contents | query: type: \"Card\", limit: 3 %}\r\n<div class=\"row\">\r\n{% for card in cards %}\r\n{{ card | shape_build_display: \"Summary\" | shape_render }}\r\n{% endfor %}\r\n</div>"
@@ -2736,16 +2649,13 @@
               },
               {
                 "ContentItemId": "47k639xd47eq63hv12ge1c2mmc",
-                "ContentItemVersionId": null,
                 "ContentType": "LiquidWidget",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-06-11T12:29:48.1516552Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
+
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "LiquidWidget": {},
                 "LiquidPart": {
                   "Liquid": "<h2>Portfolio Heading</h2>\r\n{% assign projects = Queries.Contents | query: type: \"Project\", limit: 3 %}\r\n<div class=\"row\">\r\n{% for project in projects %}\r\n{{ project | shape_build_display: \"Summary\" | shape_render }}\r\n{% endfor %}\r\n</div>"
@@ -2757,16 +2667,12 @@
               },
               {
                 "ContentItemId": "41bgx46s9q1r15ratwy0j87v4a",
-                "ContentItemVersionId": null,
                 "ContentType": "RawHtml",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-06-11T12:29:48.1533977Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "RawHtml": {
                   "Content": {
                     "Html": "<div class=\"row\">\r\n      <div class=\"col-lg-6\">\r\n        <h2>Modern Business Features</h2>\r\n        <p>The Modern Business template by Start Bootstrap includes:</p>\r\n        <ul>\r\n          <li>\r\n            <strong>Bootstrap v4</strong>\r\n          </li>\r\n          <li>jQuery</li>\r\n          <li>Font Awesome</li>\r\n          <li>Working contact form with validation</li>\r\n          <li>Unstyled page elements for easy customization</li>\r\n        </ul>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>\r\n      </div>\r\n      <div class=\"col-lg-6\">\r\n        <img class=\"img-fluid rounded\" src=\"https://placehold.it/700x450\" alt=\"\">\r\n      </div>\r\n    </div>"
@@ -2779,16 +2685,12 @@
               },
               {
                 "ContentItemId": "4hs8ss7whwm3s59sxjq1vb54nm",
-                "ContentItemVersionId": null,
                 "ContentType": "RawHtml",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-06-11T12:29:48.1547488Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "RawHtml": {
                   "Content": {
                     "Html": "\r\n<hr/>\r\n<div class=\"row mb-4\">\r\n      <div class=\"col-md-8\">\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>\r\n      </div>\r\n      <div class=\"col-md-4\">\r\n        <a class=\"btn btn-lg btn-secondary btn-block\" href=\"#\">Call to Action</a>\r\n      </div>\r\n    </div>"
@@ -2807,16 +2709,12 @@
         },
         {
           "ContentItemId": "4fbd4w9z5sgv67rnavdajk9n4m",
-          "ContentItemVersionId": "4b0ks2vjtax34wq0r82svhp1nf",
           "ContentType": "BlogPost",
           "DisplayText": "Post Title 2",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-06-11T12:49:44.8235065Z",
-          "PublishedUtc": "2019-06-11T12:49:44.8480389Z",
-          "CreatedUtc": "2019-04-23T15:59:17.216Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "BlogPost": {
             "Picture": {
               "Paths": [
@@ -2842,16 +2740,12 @@
         },
         {
           "ContentItemId": "4gk0c8dgyrt0zy58gc3azpvjnj",
-          "ContentItemVersionId": "4vqpc9gkbp5j10r8spzk865pw9",
           "ContentType": "RawHtml",
           "DisplayText": "Header",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-06-14T14:07:06.4761378Z",
-          "PublishedUtc": "2019-06-14T14:07:06.4842867Z",
-          "CreatedUtc": "2019-06-11T13:06:57.6294886Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "RawHtml": {
             "Content": {
               "Html": "<div class=\"jumbotron text-center mb-0\">\r\n\t  <h1>WebSite</h1>\r\n</div>"
@@ -2866,16 +2760,12 @@
         },
         {
           "ContentItemId": "4thz85a47pbp4v7mj3e54dmdd8",
-          "ContentItemVersionId": "418mxmd75bc90w7j8xmsnq5e4s",
           "ContentType": "LiquidWidget",
           "DisplayText": "Title",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2019-06-14T14:12:45.31511Z",
-          "PublishedUtc": "2019-06-14T14:12:45.3233169Z",
-          "CreatedUtc": "2019-06-14T14:07:27.2364682Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "LiquidWidget": {},
           "LiquidPart": {
             "Liquid": "<div class=\"jumbotron text-center mb-0\">\r\n\t  <h1>{{ Model.ContentItem.DisplayText }}</h1>\r\n</div>\r\n\r\n{% shape_remove_item Model.Content \"TitlePart\" %}"
@@ -2889,16 +2779,12 @@
         },
         {
           "ContentItemId": "4a1tnzzvhz29tzsxr333rwzcdf",
-          "ContentItemVersionId": "48ca399ppzqzr1882d111k51w7",
           "ContentType": "RawHtml",
           "DisplayText": "Footer",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-01-06T12:43:50.4879209Z",
-          "PublishedUtc": "2020-01-06T12:43:50.5080116Z",
-          "CreatedUtc": "2019-04-18T18:28:01.3853258Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "DisplayName": "Footer",
           "Number": 4,
           "RawHtml": {
@@ -2916,16 +2802,12 @@
         },
         {
           "ContentItemId": "4zvmnj3n27hxey6710q7bsmp5g",
-          "ContentItemVersionId": "4brxakeghwkfjtgc94cmfkb6cg",
           "ContentType": "BlogPost",
           "DisplayText": "Post Title 3",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-02-14T23:09:20.0907651Z",
-          "PublishedUtc": "2020-02-14T23:09:20.0999108Z",
-          "CreatedUtc": "2019-04-23T16:06:58.146Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "BlogPost": {
             "Picture": {
               "Paths": [
@@ -2957,16 +2839,12 @@
         },
         {
           "ContentItemId": "44r2c40x6w2bntd2kd4rnkpcdc",
-          "ContentItemVersionId": "4wf5f136jmmh3vvcsx93pfqvnb",
           "ContentType": "RichHtml",
           "DisplayText": null,
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-04-23T13:30:39.1187923Z",
-          "PublishedUtc": "2020-04-23T13:30:39.2723896Z",
-          "CreatedUtc": "2020-01-06T14:01:26.0916079Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "RichHtml": {
             "Content": {
               "Html": "<pre><code class=\"language-markup\">\r\n            &lt;p class=\"red\"&gt;red text &lt;/p&gt;\r\n        </code></pre>\r\n<pre class=\"line-numbers language-css\"><code>\r\np { color: red; }\r\n</code></pre>\r\n<pre><code class=\"language-javascript\">\r\n\tvar _self = (typeof window !== 'undefined')\r\n\t? window   // if in browser\r\n\t: (\r\n\t\t(typeof WorkerGlobalScope !== 'undefined' &amp;&amp; self instanceof WorkerGlobalScope)\r\n\t\t? self // if in worker\r\n\t\t: {}   // if in node js\r\n\t);\r\n</code></pre>"
@@ -2984,16 +2862,12 @@
         },
         {
           "ContentItemId": "4ke200mj3d0fnxmvk9xgxbpkwy",
-          "ContentItemVersionId": "4z3ff8474r4bq4cwmmqw7w904n",
           "ContentType": "RichHtml",
           "DisplayText": "Search",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-04-23T14:05:18.5230208Z",
-          "PublishedUtc": "2020-04-23T14:05:18.5327635Z",
-          "CreatedUtc": "2019-06-11T12:44:51.0839695Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "RichHtml": {
             "Content": {
               "Html": "<form class=\"navbar-left navbar-form nav-search\" action=\"/search\">\r\n<div class=\"card mb-4\">\r\n          <h5 class=\"card-header\">Search</h5>\r\n          <div class=\"card-body\">\r\n            <div class=\"input-group\">\r\n              <input type=\"text\" name=\"q\" class=\"form-control\" placeholder=\"Search for...\">\r\n              <span class=\"input-group-btn\">\r\n                <button class=\"btn btn-secondary\" type=\"submit\">Go!</button>\r\n              </span>\r\n            </div>\r\n</form>\r\n          </div>\r\n        </div>"
@@ -3008,16 +2882,12 @@
         },
         {
           "ContentItemId": "4t1r6p49631jys9kjdskfrz9wv",
-          "ContentItemVersionId": "43yemb8mmp3gfy3ewscp9ye44h",
           "ContentType": "BlogPost",
           "DisplayText": "Post Title 1",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-08T15:40:34.0484263Z",
-          "PublishedUtc": "2020-05-08T15:40:34.1490978Z",
-          "CreatedUtc": "2019-04-23T15:42:38.154Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "BlogPost": {
             "Picture": {
               "Paths": [
@@ -3050,16 +2920,12 @@
         },
         {
           "ContentItemId": "42yss79jxc8h32tvt1hzrdac51",
-          "ContentItemVersionId": "42zr50080cywxw1eask9hf7vd9",
           "ContentType": "BlogPost",
           "DisplayText": "Orchard Core RC 1",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-08T15:41:26.542848Z",
-          "PublishedUtc": "2020-05-08T15:41:26.5545042Z",
-          "CreatedUtc": "2019-09-24T10:01:45.596Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "BlogPost": {
             "Tags": {
               "Text": "Orchard Core"
@@ -3094,16 +2960,12 @@
         },
         {
           "ContentItemId": "49x1pn2ypegxc36bxbe45bnc5c",
-          "ContentItemVersionId": "4r0qwb5a53x7yxckay5gdwp248",
           "ContentType": "BlogPost",
           "DisplayText": "Orchard Core Beta 2",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-08T15:46:12.2788Z",
-          "PublishedUtc": "2020-05-08T15:46:12.2899779Z",
-          "CreatedUtc": "2019-06-26T13:01:32.604Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "BlogPost": {
             "Tags": {
               "Text": "Orchard Core"
@@ -3136,16 +2998,12 @@
         },
         {
           "ContentItemId": "461hnn716pnaxwwcgp73zq1ymj",
-          "ContentItemVersionId": "44fz9s7mkgzcbz6y6tqh3cmbmt",
           "ContentType": "BlogPost",
           "DisplayText": "Orchard Core Beta 3",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-08T15:46:20.5983942Z",
-          "PublishedUtc": "2020-05-08T15:46:20.6071218Z",
-          "CreatedUtc": "2019-04-04T09:31:19.744Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "BlogPost": {
             "Tags": {
               "Text": "Orchard Core"
@@ -3178,16 +3036,12 @@
         },
         {
           "ContentItemId": "43bvpm7y0gkfczsch6dh10j4w7",
-          "ContentItemVersionId": "4vp7acnyb4c7zvqyyqw2gyfqxd",
           "ContentType": "BlogPost",
           "DisplayText": "Orchard Core Beta",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-08T15:46:27.9255789Z",
-          "PublishedUtc": "2020-05-08T15:46:27.9370095Z",
-          "CreatedUtc": "2017-11-21T21:16:17.668Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Number": 4,
           "BlogPost": {
             "Tags": {
@@ -3221,16 +3075,12 @@
         },
         {
           "ContentItemId": "4f4y3r3dykqwbrza3n7awptjmq",
-          "ContentItemVersionId": "4995sz6zq3qzf3ertzfyd69h57",
           "ContentType": "Blog",
           "DisplayText": "Blog",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-08T15:47:11.6765171Z",
-          "PublishedUtc": "2020-05-08T15:47:11.6908274Z",
-          "CreatedUtc": "2018-09-29T16:23:41.6943304Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "TitlePart": {
             "Title": "Blog"
           },
@@ -3252,16 +3102,12 @@
         },
         {
           "ContentItemId": "434f5hzrp807wspqtw5cypgq5e",
-          "ContentItemVersionId": "4ht1bnt58pwj55kdt8z2mrx9mz",
           "ContentType": "RawHtml",
           "DisplayText": "Search",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-08T15:48:20.9622498Z",
-          "PublishedUtc": "2020-05-08T15:48:20.9752902Z",
-          "CreatedUtc": "2019-06-11T15:19:14.1459291Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "RawHtml": {
             "Content": {
               "Html": "<form class=\"navbar-left navbar-form nav-search\" action=\"/search\">\r\n\t\t<div class=\"input-group\">\r\n\t\t\t<input type=\"text\" name=\"terms\" placeholder=\"Search ...\" class=\"form-control\">\r\n\t\t\t<div class=\"input-group-append\">\r\n\t\t\t\t<span class=\"input-group-text\">\r\n\t\t\t\t\t<i class=\"fa fa-search search-icon\">Go</i>\r\n\t\t\t\t</span>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</form>"
@@ -3276,16 +3122,12 @@
         },
         {
           "ContentItemId": "4nmzqrehq4dkc0p2thm29pm057",
-          "ContentItemVersionId": "4mzrmh4tebzfqvm3ws1tgfzj4q",
           "ContentType": "Page",
           "DisplayText": "About",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-10T09:57:52.3895184Z",
-          "PublishedUtc": "2020-05-10T09:57:52.5143966Z",
-          "CreatedUtc": "2019-04-23T12:53:44.7290613Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Page": {},
           "AutoroutePart": {
             "Path": "about",
@@ -3298,16 +3140,12 @@
             "Widgets": [
               {
                 "ContentItemId": "437dpdkgs7wmy1jax3645vjvwa",
-                "ContentItemVersionId": null,
                 "ContentType": "RawHtml",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2020-05-10T09:57:52.4853149Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "RawHtml": {
                   "Content": {
                     "Html": "<ol class=\"breadcrumb\">\r\n      <li class=\"breadcrumb-item\">\r\n        <a href=\"/\">Home</a>\r\n      </li>\r\n      <li class=\"breadcrumb-item active\">About</li>\r\n    </ol>"
@@ -3320,16 +3158,12 @@
               },
               {
                 "ContentItemId": "4zm0s51n8pdv15b86fxm2amrmy",
-                "ContentItemVersionId": null,
                 "ContentType": "RawHtml",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2020-05-10T09:57:52.4971478Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "RawHtml": {
                   "Content": {
                     "Html": "<div class=\"row\">\r\n      <div class=\"col-lg-6\">\r\n        <img class=\"img-fluid rounded mb-4\" src=\"http://placehold.it/750x450\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-6\">\r\n        <h2>About Modern Business</h2>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>\r\n      </div>\r\n    </div>\r\n"
@@ -3342,16 +3176,12 @@
               },
               {
                 "ContentItemId": "45sc0bb6c87wxy0zddscrsa8d9",
-                "ContentItemVersionId": null,
                 "ContentType": "LiquidWidget",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2020-05-10T09:57:52.4989927Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "LiquidWidget": {},
                 "LiquidPart": {
                   "Liquid": "<h2>Our Team</h2>\r\n<div class=\"row\">\r\n{% assign teamMembers = Queries.Contents | query: type:'TeamMember' %}\r\n{% for item in teamMembers %}\r\n{% assign content = item.Content[item.ContentType] %}\r\n  <div class=\"col-lg-4 mb-4\">\r\n    <div class=\"card h-100 text-center\">\r\n      <img class=\"card-img-top\" src=\"{{ content.ImageUrl.Text }}\" alt=\"\">\r\n      <div class=\"card-body\">\r\n        <h4 class=\"card-title\">{{ item | display_text }}</h4>\r\n        <h6 class=\"card-subtitle mb-2 text-muted\">{{ content.Position.Text }}</h6>\r\n        <p class=\"card-text\">{{ content.Description.Text }}</p>\r\n      </div>\r\n      <div class=\"card-footer\">\r\n        <a href=\"{{ content.Email.Text }}\">{{ content.Email.Text }}</a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n{% endfor %}\r\n</div>"
@@ -3363,16 +3193,12 @@
               },
               {
                 "ContentItemId": "4gkrzn5hkd0sr6wkpndy83ttw6",
-                "ContentItemVersionId": null,
                 "ContentType": "RawHtml",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2020-05-10T09:57:52.502552Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "RawHtml": {
                   "Content": {
                     "Html": "<h2>Our Customers</h2>\r\n<div class=\"row\">\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n    </div>"
@@ -3391,16 +3217,12 @@
         },
         {
           "ContentItemId": "47vqp7d4etqp16ab85cvby43my",
-          "ContentItemVersionId": "4mm2qa019pxqdrtw042gj4cwd7",
           "ContentType": "Menu",
           "DisplayText": "Main Menu",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-10T10:10:20.3864384Z",
-          "PublishedUtc": "2020-05-10T10:10:20.4025756Z",
-          "CreatedUtc": "2017-08-16T00:32:59.1287452Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "MenuPart": {},
           "TitlePart": {
             "Title": "Main Menu"
@@ -3409,16 +3231,12 @@
             "MenuItems": [
               {
                 "ContentItemId": "4y4qrhfev2ce56wz6jz9cqyydw",
-                "ContentItemVersionId": null,
                 "ContentType": "LinkMenuItem",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-04-23T13:22:24.7221096Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "LinkMenuItemPart": {
                   "Name": "About",
                   "Url": "~/about"
@@ -3427,16 +3245,12 @@
               },
               {
                 "ContentItemId": "4dsbwd2txw02764vdmtw6h09wm",
-                "ContentItemVersionId": null,
                 "ContentType": "LinkMenuItem",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-04-23T13:51:59.5831357Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "LinkMenuItemPart": {
                   "Name": "Services",
                   "Url": "~/services"
@@ -3445,16 +3259,12 @@
               },
               {
                 "ContentItemId": "4btkjgaj146w93ezjdzg96g4wv",
-                "ContentItemVersionId": null,
                 "ContentType": "LinkMenuItem",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2020-05-10T10:10:11.814647Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "LinkMenuItemPart": {
                   "Name": "Contact",
                   "Url": "~/contact"
@@ -3463,16 +3273,12 @@
               },
               {
                 "ContentItemId": "48ywd9hvtm8jt21j140430hzwz",
-                "ContentItemVersionId": null,
                 "ContentType": "LinkMenuItem",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-04-23T14:34:38.2889627Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "LinkMenuItemPart": {
                   "Name": "Portfolio",
                   "Url": "~/portfolio-1"
@@ -3481,16 +3287,12 @@
               },
               {
                 "ContentItemId": "4tpsnv94363ne6crggwf129rw6",
-                "ContentItemVersionId": null,
                 "ContentType": "LinkMenuItem",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-04-23T15:45:31.3939356Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "LinkMenuItemPart": {
                   "Name": "Blog",
                   "Url": "~/blog"
@@ -3499,16 +3301,12 @@
               },
               {
                 "ContentItemId": "46y2m2y3vb8dbzbpbj2144vdm5",
-                "ContentItemVersionId": null,
                 "ContentType": "LinkMenuItem",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2019-04-23T15:45:58.4141196Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "LinkMenuItemPart": {
                   "Name": "Pages",
                   "Url": "#"
@@ -3518,16 +3316,12 @@
                   "MenuItems": [
                     {
                       "ContentItemId": "4xmb5dh7m9weesry5rgx58y7w4",
-                      "ContentItemVersionId": null,
                       "ContentType": "LinkMenuItem",
                       "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2019-04-23T15:31:41.8001809Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "LinkMenuItemPart": {
                         "Name": "FAQ",
                         "Url": "~/faq"
@@ -3536,16 +3330,12 @@
                     },
                     {
                       "ContentItemId": "4d6127dcx4dkxsxt6ge3a5mg5z",
-                      "ContentItemVersionId": null,
                       "ContentType": "LinkMenuItem",
                       "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2020-04-26T13:59:33.1298014Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "LinkMenuItemPart": {
                         "Name": "404",
                         "Url": "~/404"
@@ -3554,16 +3344,12 @@
                     },
                     {
                       "ContentItemId": "44t1fnejmsnkd0vhcj37f4znch",
-                      "ContentItemVersionId": null,
                       "ContentType": "LinkMenuItem",
                       "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2019-05-01T14:59:01.0854807Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "LinkMenuItemPart": {
                         "Name": "Pricing",
                         "Url": "~/pricing"
@@ -3581,16 +3367,12 @@
         },
         {
           "ContentItemId": "4svtma635hxr85ndej6hqph14s",
-          "ContentItemVersionId": "4tgrhpgmej0n3sp2rav12x4jcq",
           "ContentType": "ContactList",
           "DisplayText": "Contacts",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-10T10:17:37.1607813Z",
-          "PublishedUtc": "2020-05-10T10:17:37.164093Z",
-          "CreatedUtc": "2020-05-10T10:17:37.1607813Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "ContactList": {},
           "ListPart": {
             "FeedProxyUrl": null,
@@ -3602,16 +3384,12 @@
         },
         {
           "ContentItemId": "4v1wzc13mhkdcv33baayw5vpw7",
-          "ContentItemVersionId": "4z36yhtvh0pphrmyd0syhk7jwm",
           "ContentType": "Page",
           "DisplayText": "Contact",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-10T10:30:15.2662808Z",
-          "PublishedUtc": "2020-05-10T10:30:15.3089693Z",
-          "CreatedUtc": "2020-05-10T10:04:23.1612151Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Page": {},
           "AutoroutePart": {
             "Path": "Contact",
@@ -3624,19 +3402,15 @@
             "Widgets": [
               {
                 "ContentItemId": "4b2axng53hmbprrpvp1wd9npnr",
-                "ContentItemVersionId": null,
                 "ContentType": "RawHtml",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2020-05-10T10:30:15.2733351Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "RawHtml": {
                   "Content": {
-                    "Html": "<div class=\"row\">\r\n      <!-- Map Column -->\r\n      <div class=\"col-lg-8 mb-4\">\r\n        <!-- Embedded Google Map -->\r\n        <iframe width=\"100%\" height=\"400px\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed\"></iframe>\r\n      </div>\r\n      <!-- Contact Details Column -->\r\n      <div class=\"col-lg-4 mb-4\">\r\n        <h3>Contact Details</h3>\r\n        <p>\r\n          3481 Melrose Place\r\n          <br>Beverly Hills, CA 90210\r\n          <br>\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Phone\">P</abbr>: (123) 456-7890\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Email\">E</abbr>:\r\n          <a href=\"mailto:name@example.com\">name@example.com\r\n          </a>\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Hours\">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM\r\n        </p>\r\n      </div>\r\n    </div>"
+                    "Html": "<div class=\"row\">\r\n      <!-- Map Column -->\r\n      <div class=\"col-lg-8 mb-4\">\r\n        <!-- Embedded Google Map -->\r\n        <iframe width=\"100%\" height=\"400px\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed\"></iframe>\r\n      </div>\r\n      <!-- Contact Details Column -->\r\n      <div class=\"col-lg-4 mb-4\">\r\n        <h3>Contact Details</h3>\r\n        <p>\r\n          3481 Melrose Place\r\n          <br>Beverly Hills, CA 90210\r\n          <br>\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Phone\">P</abbr>: (123) 456-7890\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Email\">E</abbr>:\r\n          <a href=\"mailto:name@example.com\">name@example.com\r\n          </a>\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Hours\">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM\r\n        </p>\r\n      </div>\r\n    </div>"
                   }
                 },
                 "FlowMetadata": {
@@ -3646,16 +3420,12 @@
               },
               {
                 "ContentItemId": "4253254jqt73y495fx5s0bmecp",
-                "ContentItemVersionId": null,
                 "ContentType": "Form",
                 "DisplayText": "Send us a Message",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2020-05-10T10:30:15.2764993Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
                 "Owner": null,
-                "Author": "admin",
+                "Author": "[js: parameters('AdminUsername')]",
                 "TitlePart": {
                   "Title": "Send us a Message"
                 },
@@ -3670,16 +3440,12 @@
                   "Widgets": [
                     {
                       "ContentItemId": "4zq5x1xwjxhkcss8v6ygnc2845",
-                      "ContentItemVersionId": null,
                       "ContentType": "Label",
                       "DisplayText": "Full Name:",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2020-05-10T10:30:15.2785038Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "TitlePart": {
                         "Title": "Full Name:"
                       },
@@ -3696,16 +3462,12 @@
                     },
                     {
                       "ContentItemId": "4jhvhzzqeacfb7tj6vqk73ncwv",
-                      "ContentItemVersionId": null,
                       "ContentType": "Input",
                       "DisplayText": "FullName",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2020-05-10T10:30:15.281248Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "FormInputElementPart": {
                         "Name": "FullName"
                       },
@@ -3724,16 +3486,12 @@
                     },
                     {
                       "ContentItemId": "4dzpr2583fjmz6kk4nfw93fp5w",
-                      "ContentItemVersionId": null,
                       "ContentType": "Label",
                       "DisplayText": "Phone Number:",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2020-05-10T10:30:15.2837075Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "TitlePart": {
                         "Title": "Phone Number:"
                       },
@@ -3750,16 +3508,12 @@
                     },
                     {
                       "ContentItemId": "49d6dy20natmt0ex8zzfftfj41",
-                      "ContentItemVersionId": null,
                       "ContentType": "Input",
                       "DisplayText": "Phone",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2020-05-10T10:30:15.28717Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "FormInputElementPart": {
                         "Name": "Phone"
                       },
@@ -3778,16 +3532,12 @@
                     },
                     {
                       "ContentItemId": "4grmtz1535ns5sjtc5715kadc0",
-                      "ContentItemVersionId": null,
                       "ContentType": "Label",
                       "DisplayText": "Email Address:",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2020-05-10T10:30:15.2908304Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "TitlePart": {
                         "Title": "Email Address:"
                       },
@@ -3804,16 +3554,12 @@
                     },
                     {
                       "ContentItemId": "4r21cvybc25p979me51rpxb4nx",
-                      "ContentItemVersionId": null,
                       "ContentType": "Input",
                       "DisplayText": "Email",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2020-05-10T10:30:15.2934702Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "FormInputElementPart": {
                         "Name": "Email"
                       },
@@ -3832,16 +3578,12 @@
                     },
                     {
                       "ContentItemId": "45129mh6p36rs3f63xpf938tnm",
-                      "ContentItemVersionId": null,
                       "ContentType": "Label",
                       "DisplayText": "Message:",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2020-05-10T10:30:15.2956401Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "TitlePart": {
                         "Title": "Message:"
                       },
@@ -3858,16 +3600,12 @@
                     },
                     {
                       "ContentItemId": "4wr0sx5skejza4sq7bg2tcwp5x",
-                      "ContentItemVersionId": null,
                       "ContentType": "TextArea",
                       "DisplayText": "Message",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2020-05-10T10:30:15.2984568Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "FormInputElementPart": {
                         "Name": "Message"
                       },
@@ -3885,16 +3623,12 @@
                     },
                     {
                       "ContentItemId": "4swtkzf7rdzjx06mx4r0bh8d40",
-                      "ContentItemVersionId": null,
                       "ContentType": "Button",
                       "DisplayText": "submit",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2020-05-10T10:30:15.3008599Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
                       "Owner": null,
-                      "Author": "admin",
+                      "Author": "[js: parameters('AdminUsername')]",
                       "FormInputElementPart": {
                         "Name": "submit"
                       },
@@ -3925,16 +3659,12 @@
         },
         {
           "ContentItemId": "4nkr8gv2fbdkh10bj96wpsbfma",
-          "ContentItemVersionId": "4b5g70ggvskfxwbjm1q2dbeqnt",
           "ContentType": "Contact",
           "DisplayText": "Antoine Griffard",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-10T10:30:45.7180551Z",
-          "PublishedUtc": "2020-05-10T10:30:45.7215128Z",
-          "CreatedUtc": "2020-05-10T10:30:45.7180551Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Contact": {
             "FullName": {
               "Text": "Antoine Griffard"
@@ -3958,16 +3688,12 @@
         },
         {
           "ContentItemId": "4905jspxa8dch26wgqzmyhhvmt",
-          "ContentItemVersionId": "4q7xjqkgwrmndrya561jtmc55k",
           "ContentType": "Contact",
           "DisplayText": "Test",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-10T10:33:48.3859595Z",
-          "PublishedUtc": "2020-05-10T10:33:48.388811Z",
-          "CreatedUtc": "2020-05-10T10:33:48.3859595Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "Contact": {
             "FullName": {
               "Text": "Test"
@@ -3991,16 +3717,12 @@
         },
         {
           "ContentItemId": "4ax02wvww09k151chk2q96njwb",
-          "ContentItemVersionId": "4x1dyvw6whkzy06pssabkrt3m8",
           "ContentType": "LiquidPage",
           "DisplayText": "Pricing",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2020-05-13T10:04:33.2292203Z",
-          "PublishedUtc": "2020-05-13T10:04:33.2597087Z",
-          "CreatedUtc": "2020-05-13T10:04:33.2292203Z",
-          "Owner": "admin",
-          "Author": "admin",
+          "Owner": "[js: parameters('AdminUserId')]",
+          "Author": "[js: parameters('AdminUsername')]",
           "LiquidPage": {},
           "AutoroutePart": {
             "Path": "pricing",
@@ -4018,6 +3740,33 @@
         }
       ]
     },
+    //media
+    {
+      "name": "media",
+      "Files": [
+        {
+          "SourcePath": "700x300.png",
+          "TargetPath": "700x300.png"
+        },
+        {
+          "SourcePath": "700x400.png",
+          "TargetPath": "700x400.png"
+        },
+        {
+          "SourcePath": "750x300.png",
+          "TargetPath": "750x300.png"
+        },
+        {
+          "SourcePath": "750x500.png",
+          "TargetPath": "750x500.png"
+        },
+        {
+          "SourcePath": "Orchard/OrchardCore-Logo.png",
+          "TargetPath": "Orchard/OrchardCore-Logo.png"
+        }
+      ]
+    },
+    //Templates
     {
       "name": "Templates",
       "Templates": {
@@ -4095,31 +3844,7 @@
         }
       }
     },
-    {
-      "name": "media",
-      "Files": [
-        {
-          "SourcePath": "700x300.png",
-          "TargetPath": "700x300.png"
-        },
-        {
-          "SourcePath": "700x400.png",
-          "TargetPath": "700x400.png"
-        },
-        {
-          "SourcePath": "750x300.png",
-          "TargetPath": "750x300.png"
-        },
-        {
-          "SourcePath": "750x500.png",
-          "TargetPath": "750x500.png"
-        },
-        {
-          "SourcePath": "Orchard/OrchardCore-Logo.png",
-          "TargetPath": "Orchard/OrchardCore-Logo.png"
-        }
-      ]
-    },
+    //queries
     {
       "name": "queries",
       "Queries": [
