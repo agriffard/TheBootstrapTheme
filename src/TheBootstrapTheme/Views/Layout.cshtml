@@ -1,9 +1,9 @@
-﻿@using OrchardCore.Entities
+@using OrchardCore.Entities
 @using OrchardCore.ContentManagement
 @{
     var themeSettings = Site.As<ContentItem>("TheBootstrapThemeSettings");
     var head = themeSettings?.Content?.TheBootstrapThemeSettings?.Head?.Text ?? string.Empty;
-    var foot = themeSettings?.Content?.TheBootstrapThemeSettings?.Foot?.Text ?? string.Empty;    
+    var foot = themeSettings?.Content?.TheBootstrapThemeSettings?.Foot?.Text ?? string.Empty;
     var bg = themeSettings?.Content?.TheBootstrapThemeSettings?.Background?.Text ?? "dark";
     var nav = themeSettings?.Content?.TheBootstrapThemeSettings?.Navigation?.Text ?? string.Empty;
     string bootswatch = themeSettings?.Content?.TheBootstrapThemeSettings?.Bootswatch?.Text ?? string.Empty;
@@ -26,37 +26,41 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@RenderTitleSegments(Site.SiteName, "before")</title>
+    <link type="image/x-icon" rel="shortcut icon" href="~/TheBootstrapTheme/favicon.ico">
     @Html.Raw(head)
-    @if (!string.IsNullOrEmpty(bootswatch)) {
-    <link rel="stylesheet" href="https://bootswatch.com/4/@(bootswatch)/bootstrap.css" media="screen">
+    @if (!string.IsNullOrEmpty(bootswatch))
+    {
+        <link rel="stylesheet" href="https://bootswatch.com/4/@(bootswatch)/bootstrap.css" media="screen">
     }
-    else {
-    @*<style asp-name="bootstrap" version="4"></style>*@
-    <style asp-name="thebootstraptheme-bootstrap-oc" version="1"></style>
+    else
+    {
+        @*<style asp-name="bootstrap" version="4"></style>*@
+        <style asp-name="thebootstraptheme-bootstrap-oc" version="1"></style>
     }
     <style asp-name="font-awesome" version="5"></style>
     @if (nav == "FixedTop")
     {
-    <link rel="stylesheet" href="~/TheBootstrapTheme/css/navbar-top-fixed.css">
+        <link rel="stylesheet" href="~/TheBootstrapTheme/css/navbar-top-fixed.css">
     }
     @if (stickyFooter)
     {
-    <link rel="stylesheet" href="~/TheBootstrapTheme/css/sticky-footer.css">
+        <link rel="stylesheet" href="~/TheBootstrapTheme/css/sticky-footer.css">
     }
     <script asp-name="bootstrap" version="4" at="Foot"></script>
     <resources type="Meta" />
     <resources type="HeadLink" />
     <resources type="Stylesheet" />
     <resources type="HeadScript" />
-    @await RenderSectionAsync("HeadMeta", required: false)    
+    @await RenderSectionAsync("HeadMeta", required: false)
 </head>
 <body dir="@Orchard.CultureDir()" class="@bodyClass">
     <header>
         @await RenderSectionAsync("Header", required: false)
     </header>
     <nav class="navbar navbar-expand-lg @navbarClass">
-        @if (!navbarFluid) {
-        @Html.Raw("<div class='container'>")}
+        @if (!navbarFluid)
+        {
+            @Html.Raw("<div class='container'>")}
         <a class="navbar-brand" href="~/">@Site.SiteName</a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -66,8 +70,9 @@
             @*<shape type="ContentCulturePicker" />*@
             @await RenderSectionAsync("Navbar", required: false)
         </div>
-        @if (!navbarFluid) {
-        @Html.Raw("</div>")}
+        @if (!navbarFluid)
+        {
+            @Html.Raw("</div>")}
     </nav>
     @await RenderSectionAsync("BeforeContent", required: false)
     <main id="page-content" role="main" class="container mt-4">

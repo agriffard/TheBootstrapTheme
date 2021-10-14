@@ -7,9 +7,7 @@ namespace TheBootstrapTheme.OrchardCore
 {
     public class Startup : StartupBase
     {
-        public override void ConfigureServices(IServiceCollection serviceCollection)
-        {
-            serviceCollection.AddScoped<IResourceManifestProvider, ResourceManifest>();
-        }
+        public override void ConfigureServices(IServiceCollection services) =>
+            services.AddTransient<IConfigureOptions<ResourceManagementOptions>, ResourceManagementOptionsConfiguration>();
     }
 }
