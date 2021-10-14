@@ -4,7 +4,6 @@
     <Authors>Antoine Griffard</Authors>
     <RepositoryUrl>https://github.com/agriffard/TheBootstrapTheme.OrchardCore</RepositoryUrl>
     <PackageProjectUrl>https://github.com/agriffard/TheBootstrapTheme.OrchardCore</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/agriffard/TheBootstrapTheme.OrchardCore/blob/master/LICENSE</PackageLicenseUrl>
     <TargetFrameworks>net5.0;netcoreapp3.1</TargetFrameworks>
     <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(BuildNumber)' != ''">$(VersionSuffix)-$(BuildNumber)</VersionSuffix>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
