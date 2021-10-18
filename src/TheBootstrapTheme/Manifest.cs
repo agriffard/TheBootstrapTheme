@@ -1,9 +1,10 @@
 using OrchardCore.DisplayManagement.Manifest;
 
 [assembly: Theme(
-    Name = "TheBootstrapTheme",
+    Name = "The Bootstrap Theme",
     Author = "Antoine Griffard",
     Website = "https://github.com/agriffard/TheBootstrapTheme.OrchardCore",
-    Version = "1.0.0-rc1",
-    Description = "Bootstrap theme"
+    Version = "1.0.0",
+    Description = "Bootstrap theme",
+    Tags = new[] { "Bootstrap" }
 )]
