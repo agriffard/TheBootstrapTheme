@@ -2188,7 +2188,7 @@
               "Text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
             },
             "Link": {
-              "Url": "https://localhost:44300/",
+              "Url": "project-one",
               "Text": "Learn More"
             }
           },
@@ -2213,7 +2213,7 @@
               "Text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
             },
             "Link": {
-              "Url": "https://localhost:44300/",
+              "Url": "project-two",
               "Text": "Learn More"
             }
           },
@@ -2238,7 +2238,7 @@
               "Text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
             },
             "Link": {
-              "Url": "https://localhost:44300/",
+              "Url": "project-three",
               "Text": "Learn More"
             }
           },
@@ -3827,7 +3827,7 @@
           "Description": null
         },
         "Content_Summary__Card": {
-          "Content": "{% assign content = Model.ContentItem.Content[Model.ContentItem.ContentType] %}\r\n<div class=\"col-lg-4 mb-4\">\r\n  <div class=\"card h-100\">\r\n    <h4 class=\"card-header\">{{ Model.ContentItem.Content.TitlePart.Title }}</h4>\r\n    <div class=\"card-body\">\r\n      <p class=\"card-text\">{{ content.Description.Text }}</p>\r\n    </div>\r\n    <div class=\"card-footer\">\r\n      <a href=\"{{ Model.ContentItem.Content.AutoroutePart.Path }}\" class=\"btn btn-primary\">Learn More</a>\r\n    </div>\r\n  </div>\r\n</div>",
+          "Content": "{% assign content = Model.ContentItem.Content[Model.ContentItem.ContentType] %}\r\n<div class=\"col-lg-4 mb-4\">\r\n  <div class=\"card h-100\">\r\n    <h4 class=\"card-header\">{{ Model.ContentItem.Content.TitlePart.Title }}</h4>\r\n    <div class=\"card-body\">\r\n      <p class=\"card-text\">{{ content.Description.Text }}</p>\r\n    </div>\r\n    <div class=\"card-footer\">\r\n      <a href=\"{{ Model.ContentItem.Content.Card.Link.Url }}\" class=\"btn btn-primary\">Learn More</a>\r\n    </div>\r\n  </div>\r\n</div>",
           "Description": null
         },
         "Content_Summary__Project": {
