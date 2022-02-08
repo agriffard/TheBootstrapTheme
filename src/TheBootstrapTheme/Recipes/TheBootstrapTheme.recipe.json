@@ -2116,7 +2116,7 @@
               "Text": "name@example.com"
             },
             "ImageUrl": {
-              "Text": "http://placehold.it/750x450"
+              "Text": "[asset_url]Images/placeholder-image-750x450.png[/asset_url]"
             }
           },
           "TitlePart": {
@@ -2142,7 +2142,7 @@
               "Text": "name@example.com"
             },
             "ImageUrl": {
-              "Text": "http://placehold.it/750x450"
+              "Text": "[asset_url]Images/placeholder-image-750x450.png[/asset_url]"
             }
           },
           "TitlePart": {
@@ -2168,7 +2168,7 @@
               "Text": "name@example.com"
             },
             "ImageUrl": {
-              "Text": "http://placehold.it/750x450"
+              "Text": "[asset_url]Images/placeholder-image-750x450.png[/asset_url]"
             }
           },
           "TitlePart": {
@@ -2601,7 +2601,7 @@
           "Author": "[js: parameters('AdminUsername')]",
           "CardList": {},
           "HtmlBodyPart": {
-            "Html": "<ol class=\"breadcrumb\">\r\n      <li class=\"breadcrumb-item\">\r\n        <a href=\"/\">Home</a>\r\n      </li>\r\n      <li class=\"breadcrumb-item active\">Services</li>\r\n    </ol>\r\n<img class=\"img-fluid rounded mb-4\" src=\"http://placehold.it/1200x300\" alt=\"\">"
+            "Html": "<ol class=\"breadcrumb\">\r\n      <li class=\"breadcrumb-item\">\r\n        <a href=\"/\">Home</a>\r\n      </li>\r\n      <li class=\"breadcrumb-item active\">Services</li>\r\n    </ol>\r\n<img class=\"img-fluid rounded mb-4\" src=\"[asset_url]Images/placeholder-image-1200x300.png[/asset_url]\" alt=\"\">"
           },
           "ListPart": {
             "FeedProxyUrl": null,
@@ -3166,7 +3166,7 @@
                 "Author": "[js: parameters('AdminUsername')]",
                 "RawHtml": {
                   "Content": {
-                    "Html": "<div class=\"row\">\r\n      <div class=\"col-lg-6\">\r\n        <img class=\"img-fluid rounded mb-4\" src=\"http://placehold.it/750x450\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-6\">\r\n        <h2>About Modern Business</h2>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>\r\n      </div>\r\n    </div>\r\n"
+                    "Html": "<div class=\"row\">\r\n      <div class=\"col-lg-6\">\r\n        <img class=\"img-fluid rounded mb-4\" src=\"[asset_url]Images/placeholder-image-750x450.png[/asset_url]\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-6\">\r\n        <h2>About Modern Business</h2>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>\r\n      </div>\r\n    </div>\r\n"
                   }
                 },
                 "FlowMetadata": {
@@ -3201,7 +3201,7 @@
                 "Author": "[js: parameters('AdminUsername')]",
                 "RawHtml": {
                   "Content": {
-                    "Html": "<h2>Our Customers</h2>\r\n<div class=\"row\">\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n    </div>"
+                    "Html": "<h2>Our Customers</h2>\r\n<div class=\"row\">\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"[asset_url]Images/placeholder-image-500x300.png[/asset_url]\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n    </div>"
                   }
                 },
                 "FlowMetadata": {
@@ -3763,6 +3763,19 @@
         {
           "SourcePath": "Orchard/OrchardCore-Logo.png",
           "TargetPath": "Orchard/OrchardCore-Logo.png"
+        },
+        // The images below are from https://placeholder.com. Usage rules: https://placeholder.com/rules/
+        {
+          "SourcePath": "Images/placeholder-image-1200x300.png",
+          "TargetPath": "Images/placeholder-image-1200x300.png"
+        },
+        {
+          "SourcePath": "Images/placeholder-image-750x450.png",
+          "TargetPath": "Images/placeholder-image-750x450.png"
+        },
+        {
+          "SourcePath": "Images/placeholder-image-500x300.png",
+          "TargetPath": "Images/placeholder-image-500x300.png"
         }
       ]
     },
