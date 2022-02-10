@@ -1509,23 +1509,16 @@
               }
             },
             {
-              "FieldName": "TextField",
-              "Name": "ImageUrl",
+              "FieldName": "MediaField",
+              "Name": "Image",
               "Settings": {
-                "ContentIndexSettings": {
-                  "Included": false,
-                  "Stored": false,
-                  "Analyzed": false,
-                  "Sanitized": false,
-                  "Tokenized": false,
-                  "Template": null
-                },
                 "ContentPartFieldSettings": {
-                  "DisplayName": "ImageUrl",
-                  "Editor": "Url",
-                  "Position": "3"
+                  "DisplayName": "Image"
                 },
-                "TextFieldSettings": {}
+                "MediaFieldSettings": {
+                  "Multiple": false
+                },
+                "ContentIndexSettings": {}
               }
             }
           ]
@@ -2098,12 +2091,16 @@
       "name": "Content",
       "data": [
         {
-          "ContentItemId": "4chwn6kqvb49c2phc6hhzt71c6",
+          "ContentItemId": "4v1f9791gwzgys4w5e19rfbvx6",
+          "ContentItemVersionId": "4nyzrr92ewbcfshnjrxjstzyx9",
           "ContentType": "TeamMember",
-          "DisplayText": "Team Member 1",
+          "DisplayText": "Team Member 3",
           "Latest": true,
           "Published": true,
-          "Owner": "[js: parameters('AdminUserId')]",
+          "ModifiedUtc": "2022-02-10T14:29:51.1283662Z",
+          "PublishedUtc": "2022-02-10T14:29:51.1413174Z",
+          "CreatedUtc": "2022-02-10T13:27:08.7187171Z",
+          "Owner": "4nbvvq9xebjs422zw9kknpb4wn",
           "Author": "[js: parameters('AdminUsername')]",
           "TeamMember": {
             "Position": {
@@ -2115,21 +2112,30 @@
             "Email": {
               "Text": "name@example.com"
             },
-            "ImageUrl": {
-              "Text": "[asset_url]Images/placeholder-image-750x450.png[/asset_url]"
+            "Image": {
+              "Paths": [
+                "Images/placeholder-image-750x450.png"
+              ],
+              "MediaTexts": [
+                ""
+              ]
             }
           },
           "TitlePart": {
-            "Title": "Team Member 1"
+            "Title": "Team Member 3"
           }
         },
         {
           "ContentItemId": "421n57k9mvdh877tjcvem1rqwd",
+          "ContentItemVersionId": "4th4p7afdq9af4jh4mp39wvqd3",
           "ContentType": "TeamMember",
           "DisplayText": "Team Member 2",
           "Latest": true,
           "Published": true,
-          "Owner": "[js: parameters('AdminUserId')]",
+          "ModifiedUtc": "2022-02-10T14:30:05.3141637Z",
+          "PublishedUtc": "2022-02-10T14:30:05.3173002Z",
+          "CreatedUtc": "2022-02-10T13:27:08.7168172Z",
+          "Owner": "4nbvvq9xebjs422zw9kknpb4wn",
           "Author": "[js: parameters('AdminUsername')]",
           "TeamMember": {
             "Position": {
@@ -2141,8 +2147,13 @@
             "Email": {
               "Text": "name@example.com"
             },
-            "ImageUrl": {
-              "Text": "[asset_url]Images/placeholder-image-750x450.png[/asset_url]"
+            "Image": {
+              "Paths": [
+                "Images/placeholder-image-750x450.png"
+              ],
+              "MediaTexts": [
+                ""
+              ]
             }
           },
           "TitlePart": {
@@ -2150,12 +2161,16 @@
           }
         },
         {
-          "ContentItemId": "4v1f9791gwzgys4w5e19rfbvx6",
+          "ContentItemId": "4chwn6kqvb49c2phc6hhzt71c6",
+          "ContentItemVersionId": "4am91tahvfgq94zf8e3z1cf9xb",
           "ContentType": "TeamMember",
-          "DisplayText": "Team Member 3",
+          "DisplayText": "Team Member 1",
           "Latest": true,
           "Published": true,
-          "Owner": "[js: parameters('AdminUserId')]",
+          "ModifiedUtc": "2022-02-10T14:30:10.5811498Z",
+          "PublishedUtc": "2022-02-10T14:30:10.5842347Z",
+          "CreatedUtc": "2022-02-10T13:27:08.6940623Z",
+          "Owner": "4nbvvq9xebjs422zw9kknpb4wn",
           "Author": "[js: parameters('AdminUsername')]",
           "TeamMember": {
             "Position": {
@@ -2167,12 +2182,17 @@
             "Email": {
               "Text": "name@example.com"
             },
-            "ImageUrl": {
-              "Text": "[asset_url]Images/placeholder-image-750x450.png[/asset_url]"
+            "Image": {
+              "Paths": [
+                "Images/placeholder-image-750x450.png"
+              ],
+              "MediaTexts": [
+                ""
+              ]
             }
           },
           "TitlePart": {
-            "Title": "Team Member 3"
+            "Title": "Team Member 1"
           }
         },
         {
@@ -2673,10 +2693,9 @@
                 "Published": false,
                 "Owner": null,
                 "Author": "[js: parameters('AdminUsername')]",
-                "RawHtml": {
-                  "Content": {
-                    "Html": "<div class=\"row\">\r\n      <div class=\"col-lg-6\">\r\n        <h2>Modern Business Features</h2>\r\n        <p>The Modern Business template by Start Bootstrap includes:</p>\r\n        <ul>\r\n          <li>\r\n            <strong>Bootstrap v4</strong>\r\n          </li>\r\n          <li>jQuery</li>\r\n          <li>Font Awesome</li>\r\n          <li>Working contact form with validation</li>\r\n          <li>Unstyled page elements for easy customization</li>\r\n        </ul>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>\r\n      </div>\r\n      <div class=\"col-lg-6\">\r\n        <img class=\"img-fluid rounded\" src=\"https://placehold.it/700x450\" alt=\"\">\r\n      </div>\r\n    </div>"
-                  }
+                "LiquidWidget": {},
+                "LiquidPart": {
+                  "Liquid": "<div class=\"row\">\r\n      <div class=\"col-lg-6\">\r\n        <h2>Modern Business Features</h2>\r\n        <p>The Modern Business template by Start Bootstrap includes:</p>\r\n        <ul>\r\n          <li>\r\n            <strong>Bootstrap v4</strong>\r\n          </li>\r\n          <li>jQuery</li>\r\n          <li>Font Awesome</li>\r\n          <li>Working contact form with validation</li>\r\n          <li>Unstyled page elements for easy customization</li>\r\n        </ul>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>\r\n      </div>\r\n      <div class=\"col-lg-6\">\r\n        <img class=\"img-fluid rounded\" src=\"{{ 'Images/placeholder-image-700x450.png' | asset_url }}\" alt=\"\">\r\n      </div>\r\n    </div>"
                 },
                 "FlowMetadata": {
                   "Alignment": 3,
@@ -3158,16 +3177,15 @@
               },
               {
                 "ContentItemId": "4zm0s51n8pdv15b86fxm2amrmy",
-                "ContentType": "RawHtml",
+                "ContentType": "LiquidWidget",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
                 "Owner": null,
                 "Author": "[js: parameters('AdminUsername')]",
-                "RawHtml": {
-                  "Content": {
-                    "Html": "<div class=\"row\">\r\n      <div class=\"col-lg-6\">\r\n        <img class=\"img-fluid rounded mb-4\" src=\"[asset_url]Images/placeholder-image-750x450.png[/asset_url]\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-6\">\r\n        <h2>About Modern Business</h2>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>\r\n      </div>\r\n    </div>\r\n"
-                  }
+                "LiquidWidget": {},
+                "LiquidPart": {
+                  "Liquid": "<div class=\"row\">\r\n      <div class=\"col-lg-6\">\r\n        <img class=\"img-fluid rounded mb-4\" src=\"{{ 'Images/placeholder-image-750x450.png' | asset_url }}\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-6\">\r\n        <h2>About Modern Business</h2>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>\r\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>\r\n      </div>\r\n    </div>\r\n"
                 },
                 "FlowMetadata": {
                   "Alignment": 3,
@@ -3184,7 +3202,7 @@
                 "Author": "[js: parameters('AdminUsername')]",
                 "LiquidWidget": {},
                 "LiquidPart": {
-                  "Liquid": "<h2>Our Team</h2>\r\n<div class=\"row\">\r\n{% assign teamMembers = Queries.Contents | query: type:'TeamMember' %}\r\n{% for item in teamMembers %}\r\n{% assign content = item.Content[item.ContentType] %}\r\n  <div class=\"col-lg-4 mb-4\">\r\n    <div class=\"card h-100 text-center\">\r\n      <img class=\"card-img-top\" src=\"{{ content.ImageUrl.Text }}\" alt=\"\">\r\n      <div class=\"card-body\">\r\n        <h4 class=\"card-title\">{{ item | display_text }}</h4>\r\n        <h6 class=\"card-subtitle mb-2 text-muted\">{{ content.Position.Text }}</h6>\r\n        <p class=\"card-text\">{{ content.Description.Text }}</p>\r\n      </div>\r\n      <div class=\"card-footer\">\r\n        <a href=\"{{ content.Email.Text }}\">{{ content.Email.Text }}</a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n{% endfor %}\r\n</div>"
+                  "Liquid": "<h2>Our Team</h2>\r\n<div class=\"row\">\r\n{% assign teamMembers = Queries.Contents | query: type:'TeamMember' %}\r\n{% for item in teamMembers %}\r\n{% assign content = item.Content[item.ContentType] %}\r\n  <div class=\"col-lg-4 mb-4\">\r\n    <div class=\"card h-100 text-center\">\r\n      <img class=\"card-img-top\" src=\"{{ content.Image.Paths.first | asset_url }}\" alt=\"\">\r\n      <div class=\"card-body\">\r\n        <h4 class=\"card-title\">{{ item | display_text }}</h4>\r\n        <h6 class=\"card-subtitle mb-2 text-muted\">{{ content.Position.Text }}</h6>\r\n        <p class=\"card-text\">{{ content.Description.Text }}</p>\r\n      </div>\r\n      <div class=\"card-footer\">\r\n        <a href=\"{{ content.Email.Text }}\">{{ content.Email.Text }}</a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n{% endfor %}\r\n</div>"
                 },
                 "FlowMetadata": {
                   "Alignment": 3,
@@ -3193,16 +3211,15 @@
               },
               {
                 "ContentItemId": "4gkrzn5hkd0sr6wkpndy83ttw6",
-                "ContentType": "RawHtml",
+                "ContentType": "LiquidWidget",
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
                 "Owner": null,
                 "Author": "[js: parameters('AdminUsername')]",
-                "RawHtml": {
-                  "Content": {
-                    "Html": "<h2>Our Customers</h2>\r\n<div class=\"row\">\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"[asset_url]Images/placeholder-image-500x300.png[/asset_url]\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"http://placehold.it/500x300\" alt=\"\">\r\n      </div>\r\n    </div>"
-                  }
+                "LiquidWidget": {},
+                "LiquidPart": {
+                  "Liquid": "<h2>Our Customers</h2>\r\n<div class=\"row\">\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"{{ 'Images/placeholder-image-500x300.png' | asset_url }}\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"{{ 'Images/placeholder-image-500x300.png' | asset_url }}\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"{{ 'Images/placeholder-image-500x300.png' | asset_url }}\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"{{ 'Images/placeholder-image-500x300.png' | asset_url }}\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"{{ 'Images/placeholder-image-500x300.png' | asset_url }}\" alt=\"\">\r\n      </div>\r\n      <div class=\"col-lg-2 col-sm-4 mb-4\">\r\n        <img class=\"img-fluid\" src=\"{{ 'Images/placeholder-image-500x300.png' | asset_url }}\" alt=\"\">\r\n      </div>\r\n    </div>"
                 },
                 "FlowMetadata": {
                   "Alignment": 3,
@@ -3410,7 +3427,7 @@
                 "Author": "[js: parameters('AdminUsername')]",
                 "RawHtml": {
                   "Content": {
-                    "Html": "<div class=\"row\">\r\n      <!-- Map Column -->\r\n      <div class=\"col-lg-8 mb-4\">\r\n        <!-- Embedded Google Map -->\r\n        <iframe width=\"100%\" height=\"400px\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed\"></iframe>\r\n      </div>\r\n      <!-- Contact Details Column -->\r\n      <div class=\"col-lg-4 mb-4\">\r\n        <h3>Contact Details</h3>\r\n        <p>\r\n          3481 Melrose Place\r\n          <br>Beverly Hills, CA 90210\r\n          <br>\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Phone\">P</abbr>: (123) 456-7890\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Email\">E</abbr>:\r\n          <a href=\"mailto:name@example.com\">name@example.com\r\n          </a>\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Hours\">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM\r\n        </p>\r\n      </div>\r\n    </div>"
+                    "Html": "<div class=\"row\">\r\n      <!-- Map Column -->\r\n      <div class=\"col-lg-8 mb-4\">\r\n        <!-- Embedded Google Map -->\r\n        <iframe title=\"map\" width=\"100%\" height=\"400px\" src=\"https://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed\"></iframe>\r\n      </div>\r\n      <!-- Contact Details Column -->\r\n      <div class=\"col-lg-4 mb-4\">\r\n        <h3>Contact Details</h3>\r\n        <p>\r\n          3481 Melrose Place\r\n          <br>Beverly Hills, CA 90210\r\n          <br>\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Phone\">P</abbr>: (123) 456-7890\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Email\">E</abbr>:\r\n          <a href=\"mailto:name@example.com\">name@example.com\r\n          </a>\r\n        </p>\r\n        <p>\r\n          <abbr title=\"Hours\">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM\r\n        </p>\r\n      </div>\r\n    </div>"
                   }
                 },
                 "FlowMetadata": {
@@ -3432,7 +3449,7 @@
                 "FormPart": {
                   "EnableAntiForgeryToken": true,
                   "Action": "/workflows/Invoke?token=CfDJ8LMHDOdGVVxLn62Ho5DYo3m6AM2onhR79YsI634yUSo3-wzWR_czcAeUnoxzvNMJOqU-zVRWo1W6BOVqT76jhzh_8vGn7pEXjhY0JTL8oHzQ1amsYcJk2dJt3NvM4tZpHGJKCVUwICR64YQoDprQA8k4eTOsa0INXBrGQ0puqFXlxw0M2lKC20X5Us2o25juEtXi8hjjHO5SxSnIr3lSU1JkveOmvpd1_GAM0sVUdySp",
-                  "Method": "POST",
+                  "Method": "post",
                   "WorkflowTypeId": null,
                   "EncType": "application/x-www-form-urlencoded"
                 },
@@ -3770,6 +3787,10 @@
           "TargetPath": "Images/placeholder-image-1200x300.png"
         },
         {
+          "SourcePath": "Images/placeholder-image-700x450.png",
+          "TargetPath": "Images/placeholder-image-700x450.png"
+        },
+        {
           "SourcePath": "Images/placeholder-image-750x450.png",
           "TargetPath": "Images/placeholder-image-750x450.png"
         },
@@ -3820,7 +3841,7 @@
           "Description": null
         },
         "Content__FAQ": {
-          "Content": "<h1>{{ Model.ContentItem | display_text }}</h1>\r\n{% for item in Model.ContentItem.Content.Items.ContentItems %}\r\n<div class=\"mb-4\" id=\"accordion\" role=\"tablist\" aria-multiselectable=\"true\">\r\n  <div class=\"card\">\r\n    <div class=\"card-header\" role=\"tab\" id=\"heading{{ forloop.index }}\">\r\n      <h5 class=\"mb-0\">\r\n        <a data-toggle=\"collapse\" data-parent=\"#accordion\" href=\"#collapse{{ forloop.index }}\" aria-expanded=\"true\" aria-controls=\"collapse{{ forloop.index }}\" class=\"\">{{ item.TitlePart.Title }}</a>\r\n      </h5>\r\n    </div>\r\n\r\n    <div id=\"collapse{{ forloop.index }}\" class=\"collapse{% if forloop.index == 1 %} show{% endif %}\" role=\"tabpanel\" aria-labelledby=\"heading{{ forloop.index }}\" style=\"\">\r\n      <div class=\"card-body\">\r\n        {{ item.HtmlBodyPart.Html | raw }}\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n{% endfor %}",
+          "Content": "<h1>{{ Model.ContentItem | display_text }}</h1>\r\n{% for item in Model.ContentItem.Content.Items.ContentItems %}\r\n<div class=\"mb-4\" id=\"accordion-{{ forloop.index }}\" role=\"tablist\" aria-multiselectable=\"true\">\r\n  <div class=\"card\">\r\n    <div class=\"card-header\" role=\"tab\" id=\"heading{{ forloop.index }}\">\r\n      <h5 class=\"mb-0\">\r\n        <a data-toggle=\"collapse\" data-parent=\"#accordion-{{ forloop.index }}\" href=\"#collapse{{ forloop.index }}\" aria-expanded=\"true\" aria-controls=\"collapse{{ forloop.index }}\" class=\"\">{{ item.TitlePart.Title }}</a>\r\n      </h5>\r\n    </div>\r\n\r\n    <div id=\"collapse{{ forloop.index }}\" class=\"collapse{% if forloop.index == 1 %} show{% endif %}\" role=\"tabpanel\" aria-labelledby=\"heading{{ forloop.index }}\" style=\"\">\r\n      <div class=\"card-body\">\r\n        {{ item.HtmlBodyPart.Html | raw }}\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n{% endfor %}",
           "Description": null
         },
         "Blog__ListPart": {
