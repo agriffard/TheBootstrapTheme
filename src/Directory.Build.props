@@ -5,7 +5,7 @@
     <Title>Bootstrap theme for Orchard Core</Title>
     <Description>Orchard Core Theme based on Bootstrap.</Description>
     <PackageTags>Bootstrap;OrchardCore</PackageTags>
-    <VersionPrefix>1.4.0</VersionPrefix>
+    <VersionPrefix>1.6.0</VersionPrefix>
     <VersionSuffix></VersionSuffix>
   </PropertyGroup>
 
