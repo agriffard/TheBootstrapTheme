@@ -1,21 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
-    <LangVersion>preview</LangVersion>
+	  <TargetFramework>net6.0</TargetFramework>
+	  <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OrchardCore.Menu" Version="1.7.0" />
-    <PackageReference Include="OrchardCore.Theme.Targets" Version="1.7.0" />
-    <PackageReference Include="OrchardCore.ContentManagement" Version="1.7.0" />
-    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.7.0" />
-    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.7.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\Shared\Search\" />
+    <PackageReference Include="OrchardCore.Menu" Version="1.7.2" />
+    <PackageReference Include="OrchardCore.Theme.Targets" Version="1.7.2" />
+    <PackageReference Include="OrchardCore.ContentManagement" Version="1.7.2" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.7.2" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.7.2" />
   </ItemGroup>
 
 </Project>
