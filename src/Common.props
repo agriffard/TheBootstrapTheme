@@ -4,7 +4,7 @@
     <Authors>Antoine Griffard</Authors>
     <RepositoryUrl>https://github.com/agriffard/TheBootstrapTheme.OrchardCore</RepositoryUrl>
     <PackageProjectUrl>https://github.com/agriffard/TheBootstrapTheme.OrchardCore</PackageProjectUrl>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <VersionSuffix Condition="'$(VersionSuffix)'!='' AND '$(BuildNumber)' != ''">$(VersionSuffix)-$(BuildNumber)</VersionSuffix>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <DebugType>embedded</DebugType>
