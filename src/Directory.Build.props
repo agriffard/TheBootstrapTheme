@@ -1,11 +1,11 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
   <PropertyGroup>
     <PackageId>TheBootstrapTheme</PackageId>
     <Title>Bootstrap theme for Orchard Core</Title>
     <Description>Orchard Core Theme based on Bootstrap.</Description>
     <PackageTags>Bootstrap;OrchardCore</PackageTags>
-    <VersionPrefix>1.8.0</VersionPrefix>
+    <VersionPrefix>1.8.2</VersionPrefix>
     <VersionSuffix></VersionSuffix>
   </PropertyGroup>
 
