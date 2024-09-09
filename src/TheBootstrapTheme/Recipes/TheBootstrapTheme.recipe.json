@@ -1125,7 +1125,7 @@
         },
         {
           "Name": "TheBootstrapThemeSettings",
-          "DisplayName": "TheBootstrapTheme",
+          "DisplayName": "The Bootstrap Theme",
           "Settings": {
             "ContentTypeSettings": {
               "Stereotype": "CustomSettings",
