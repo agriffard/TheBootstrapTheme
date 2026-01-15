@@ -2305,7 +2305,7 @@
             },
             "Picture": {
               "Paths": [
-                "750x500.png"
+                "750x500.webp"
               ]
             }
           },
@@ -2338,7 +2338,7 @@
             },
             "Picture": {
               "Paths": [
-                "700x300.png"
+                "700x300.webp"
               ]
             }
           },
@@ -2371,7 +2371,7 @@
             },
             "Picture": {
               "Paths": [
-                "700x300.png"
+                "700x300.webp"
               ]
             }
           },
@@ -2404,7 +2404,7 @@
             },
             "Picture": {
               "Paths": [
-                "700x300.png"
+                "700x300.webp"
               ]
             }
           },
@@ -2437,7 +2437,7 @@
             },
             "Picture": {
               "Paths": [
-                "700x300.png"
+                "700x300.webp"
               ]
             }
           },
@@ -2592,7 +2592,7 @@
             },
             "Picture": {
               "Paths": [
-                "700x400.png"
+                "700x400.webp"
               ]
             }
           },
@@ -2737,7 +2737,7 @@
           "BlogPost": {
             "Picture": {
               "Paths": [
-                "750x300.png"
+                "750x300.webp"
               ]
             }
           },
@@ -2830,7 +2830,7 @@
           "BlogPost": {
             "Picture": {
               "Paths": [
-                "750x300.png"
+                "750x300.webp"
               ]
             },
             "Tags": {
@@ -2910,7 +2910,7 @@
           "BlogPost": {
             "Picture": {
               "Paths": [
-                "750x300.png"
+                "750x300.webp"
               ]
             },
             "Tags": {
@@ -2951,7 +2951,7 @@
             },
             "Picture": {
               "Paths": [
-                "Orchard/OrchardCore-Logo.png"
+                "Orchard/OrchardCore-Logo.webp"
               ]
             }
           },
@@ -2963,7 +2963,7 @@
             "Absolute": false
           },
           "HtmlBodyPart": {
-            "Html": "<p>Orchard Core is available in RC 1<span style=\"font-size: 1rem;\">:&nbsp;</span><a href=\"https://github.com/OrchardCMS/OrchardCore/releases/tag/1.0.0-rc1\">https://github.com/OrchardCMS/OrchardCore/releases/tag/1.0.0-rc1</a></p><h2>Open-source, modular, multi-tenant application framework and CMS for ASP.NET Core</h2><br><p>{{ \"Orchard/OrchardCore-Logo.png\" | asset_url | img_tag }}</p><h3>Flexible content management&nbsp;</h3><p>Define custom content types dynamically and reuse content fields. Define roles and permissions for all your users.&nbsp;<br><br></p><h3>Full, decoupled, or headless cms&nbsp;</h3><p>You can separate the content management from the front-end by using GraphQL, and create SPA applications or even static websites.&nbsp;</p><br><h3>Modular&nbsp;</h3><p>Every feature is a module which ships as a Nuget package, can be enabled, disabled or replaced. Create your own ecosystem of modules, or reuse existing ones to bootstrap your applications.</p><br><h3>Multi-tenant</h3><p>A single installation lets you manage multiple sites. The notion of Recipe lets you write reusable websites templates.&nbsp;</p><br><h3>Speed&nbsp;</h3><p>Between the fast performance of ASP.NET Core and the architectural choices of Orchard Core CMS, you get one of the fastest CMS solutions you have ever tried, on any OS (Windows, Linux, MacOS).&nbsp;</p><br><h3>Workflows&nbsp;</h3><p>Create content validation workflows, and define Web Hooks to trigger external processes or react to external events&nbsp;</p><br><h2 style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(33, 37, 41);\">List of changes for this release</h2><ul style=\"padding-left: 2em; color: rgb(36, 41, 46); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; margin-bottom: 0px !important;\"><li>Update to ASP.NET Core 3.0</li><li style=\"margin-top: 0.25em;\">Content Localization</li><li style=\"margin-top: 0.25em;\">RTL admin theme</li><li style=\"margin-top: 0.25em;\">Resources CDN</li><li style=\"margin-top: 0.25em;\">Media CDN support</li><li style=\"margin-top: 0.25em;\">GitHub authentication</li><li style=\"margin-top: 0.25em;\">Facebook applications</li><li style=\"margin-top: 0.25em;\">.NET Core 3.0</li><li style=\"margin-top: 0.25em;\">Localization NuGet packages</li><li style=\"margin-top: 0.25em;\">Azure Media resizing</li><li style=\"margin-top: 0.25em;\">SQL fields indexing</li><li style=\"margin-top: 0.25em;\">Full Text aspect</li></ul>"
+            "Html": "<p>Orchard Core is available in RC 1<span style=\"font-size: 1rem;\">:&nbsp;</span><a href=\"https://github.com/OrchardCMS/OrchardCore/releases/tag/1.0.0-rc1\">https://github.com/OrchardCMS/OrchardCore/releases/tag/1.0.0-rc1</a></p><h2>Open-source, modular, multi-tenant application framework and CMS for ASP.NET Core</h2><br><p>{{ \"Orchard/OrchardCore-Logo.webp\" | asset_url | img_tag }}</p><h3>Flexible content management&nbsp;</h3><p>Define custom content types dynamically and reuse content fields. Define roles and permissions for all your users.&nbsp;<br><br></p><h3>Full, decoupled, or headless cms&nbsp;</h3><p>You can separate the content management from the front-end by using GraphQL, and create SPA applications or even static websites.&nbsp;</p><br><h3>Modular&nbsp;</h3><p>Every feature is a module which ships as a Nuget package, can be enabled, disabled or replaced. Create your own ecosystem of modules, or reuse existing ones to bootstrap your applications.</p><br><h3>Multi-tenant</h3><p>A single installation lets you manage multiple sites. The notion of Recipe lets you write reusable websites templates.&nbsp;</p><br><h3>Speed&nbsp;</h3><p>Between the fast performance of ASP.NET Core and the architectural choices of Orchard Core CMS, you get one of the fastest CMS solutions you have ever tried, on any OS (Windows, Linux, MacOS).&nbsp;</p><br><h3>Workflows&nbsp;</h3><p>Create content validation workflows, and define Web Hooks to trigger external processes or react to external events&nbsp;</p><br><h2 style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(33, 37, 41);\">List of changes for this release</h2><ul style=\"padding-left: 2em; color: rgb(36, 41, 46); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; margin-bottom: 0px !important;\"><li>Update to ASP.NET Core 3.0</li><li style=\"margin-top: 0.25em;\">Content Localization</li><li style=\"margin-top: 0.25em;\">RTL admin theme</li><li style=\"margin-top: 0.25em;\">Resources CDN</li><li style=\"margin-top: 0.25em;\">Media CDN support</li><li style=\"margin-top: 0.25em;\">GitHub authentication</li><li style=\"margin-top: 0.25em;\">Facebook applications</li><li style=\"margin-top: 0.25em;\">.NET Core 3.0</li><li style=\"margin-top: 0.25em;\">Localization NuGet packages</li><li style=\"margin-top: 0.25em;\">Azure Media resizing</li><li style=\"margin-top: 0.25em;\">SQL fields indexing</li><li style=\"margin-top: 0.25em;\">Full Text aspect</li></ul>"
           },
           "TitlePart": {
             "Title": "Orchard Core RC 1"
@@ -2991,7 +2991,7 @@
             },
             "Picture": {
               "Paths": [
-                "Orchard/OrchardCore-Logo.png"
+                "Orchard/OrchardCore-Logo.webp"
               ]
             }
           },
@@ -3003,7 +3003,7 @@
             "Absolute": false
           },
           "HtmlBodyPart": {
-            "Html": "<p>Orchard Core is available in Beta 2:&nbsp;<a href=\"https://github.com/OrchardCMS/OrchardCore/releases\">https://github.com/OrchardCMS/OrchardCore/releases</a>&nbsp;</p><p>   {{ \"Orchard/OrchardCore-Logo.png\" | asset_url | img_tag }}</p><p style=\"line-height: 24px; margin-right: 0px; margin-bottom: 24px; margin-left: 0px; color: rgb(64, 64, 64); font-family: Lato, proxima-nova, &quot;Helvetica Neue&quot;, Arial, sans-serif; background-color: rgb(252, 252, 252);\">Orchard Core consists of two different targets:&nbsp;</p><ul style=\"margin-right: 0px; margin-bottom: 24px; margin-left: 0px; padding: 0px; list-style-position: initial; list-style-image: initial; line-height: 24px; color: rgb(64, 64, 64); font-family: Lato, proxima-nova, &quot;Helvetica Neue&quot;, Arial, sans-serif; background-color: rgb(252, 252, 252);\"><li style=\"list-style: disc; margin-left: 24px;\"><strong style=\"font-weight: bold;\">Orchard Core Framework</strong>: An application framework for building&nbsp;<strong style=\"font-weight: bold;\">modular</strong>,&nbsp;<strong style=\"font-weight: bold;\">multi-tenant&nbsp;</strong>applications on ASP.NET Core.&nbsp;</li><li style=\"list-style: disc; margin-left: 24px;\"><strong style=\"font-weight: bold;\">Orchard Core CMS</strong>: A Web Content Management System (CMS) built on top of the Orchard Core Framework.&nbsp;</li></ul><p></p><p>Here is a list of the new features implemented in this release:&nbsp;</p><ul style=\"padding-left: 2em; color: rgb(36, 41, 46); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; margin-bottom: 0px !important;\"><li>Update to ASP.NET Core 2.1&nbsp;<ul style=\"padding-left: 2em;\"><li>Precompiled Razor Views&nbsp;</li><li style=\"margin-top: 0.25em;\">Razor Pages&nbsp;</li></ul></li><li style=\"margin-top: 0.25em;\">Updated to Bootstrap 4.1&nbsp;</li><li style=\"margin-top: 0.25em;\">Admin responsive menu&nbsp;</li><li style=\"margin-top: 0.25em;\">Assets user interface improvements&nbsp;</li><li style=\"margin-top: 0.25em;\">Fragment caching&nbsp;</li><li style=\"margin-top: 0.25em;\">Content and Query tag helpers&nbsp;</li><li style=\"margin-top: 0.25em;\">Code based manifest files&nbsp;</li><li style=\"margin-top: 0.25em;\">Updated OpenId&nbsp;</li><li style=\"margin-top: 0.25em;\">Social login support&nbsp;</li><li style=\"margin-top: 0.25em;\">Email module&nbsp;</li><li style=\"margin-top: 0.25em;\">Password reset&nbsp;</li><li style=\"margin-top: 0.25em;\">Email confirmation&nbsp;</li><li style=\"margin-top: 0.25em;\">Site and User timezones&nbsp;</li><li style=\"margin-top: 0.25em;\">Date Time (with timezone), Date and Time fields&nbsp;</li><li style=\"margin-top: 0.25em;\">Workflows module&nbsp;</li><li style=\"margin-top: 0.25em;\">Forms module&nbsp;</li><li style=\"margin-top: 0.25em;\">Azure Blob Storage&nbsp;<ul style=\"padding-left: 2em;\"><li>Assets&nbsp;</li><li style=\"margin-top: 0.25em;\">Data Protection&nbsp;</li></ul></li><li style=\"margin-top: 0.25em;\"><code style=\"font-family: SFMono-Regular, Consolas, &quot;Liberation Mono&quot;, Menlo, Courier, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: rgba(27, 31, 35, 0.05); border-radius: 3px;\">dotnet new</code>&nbsp;templates&nbsp;</li></ul><p></p>"
+            "Html": "<p>Orchard Core is available in Beta 2:&nbsp;<a href=\"https://github.com/OrchardCMS/OrchardCore/releases\">https://github.com/OrchardCMS/OrchardCore/releases</a>&nbsp;</p><p>   {{ \"Orchard/OrchardCore-Logo.webp\" | asset_url | img_tag }}</p><p style=\"line-height: 24px; margin-right: 0px; margin-bottom: 24px; margin-left: 0px; color: rgb(64, 64, 64); font-family: Lato, proxima-nova, &quot;Helvetica Neue&quot;, Arial, sans-serif; background-color: rgb(252, 252, 252);\">Orchard Core consists of two different targets:&nbsp;</p><ul style=\"margin-right: 0px; margin-bottom: 24px; margin-left: 0px; padding: 0px; list-style-position: initial; list-style-image: initial; line-height: 24px; color: rgb(64, 64, 64); font-family: Lato, proxima-nova, &quot;Helvetica Neue&quot;, Arial, sans-serif; background-color: rgb(252, 252, 252);\"><li style=\"list-style: disc; margin-left: 24px;\"><strong style=\"font-weight: bold;\">Orchard Core Framework</strong>: An application framework for building&nbsp;<strong style=\"font-weight: bold;\">modular</strong>,&nbsp;<strong style=\"font-weight: bold;\">multi-tenant&nbsp;</strong>applications on ASP.NET Core.&nbsp;</li><li style=\"list-style: disc; margin-left: 24px;\"><strong style=\"font-weight: bold;\">Orchard Core CMS</strong>: A Web Content Management System (CMS) built on top of the Orchard Core Framework.&nbsp;</li></ul><p></p><p>Here is a list of the new features implemented in this release:&nbsp;</p><ul style=\"padding-left: 2em; color: rgb(36, 41, 46); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; margin-bottom: 0px !important;\"><li>Update to ASP.NET Core 2.1&nbsp;<ul style=\"padding-left: 2em;\"><li>Precompiled Razor Views&nbsp;</li><li style=\"margin-top: 0.25em;\">Razor Pages&nbsp;</li></ul></li><li style=\"margin-top: 0.25em;\">Updated to Bootstrap 4.1&nbsp;</li><li style=\"margin-top: 0.25em;\">Admin responsive menu&nbsp;</li><li style=\"margin-top: 0.25em;\">Assets user interface improvements&nbsp;</li><li style=\"margin-top: 0.25em;\">Fragment caching&nbsp;</li><li style=\"margin-top: 0.25em;\">Content and Query tag helpers&nbsp;</li><li style=\"margin-top: 0.25em;\">Code based manifest files&nbsp;</li><li style=\"margin-top: 0.25em;\">Updated OpenId&nbsp;</li><li style=\"margin-top: 0.25em;\">Social login support&nbsp;</li><li style=\"margin-top: 0.25em;\">Email module&nbsp;</li><li style=\"margin-top: 0.25em;\">Password reset&nbsp;</li><li style=\"margin-top: 0.25em;\">Email confirmation&nbsp;</li><li style=\"margin-top: 0.25em;\">Site and User timezones&nbsp;</li><li style=\"margin-top: 0.25em;\">Date Time (with timezone), Date and Time fields&nbsp;</li><li style=\"margin-top: 0.25em;\">Workflows module&nbsp;</li><li style=\"margin-top: 0.25em;\">Forms module&nbsp;</li><li style=\"margin-top: 0.25em;\">Azure Blob Storage&nbsp;<ul style=\"padding-left: 2em;\"><li>Assets&nbsp;</li><li style=\"margin-top: 0.25em;\">Data Protection&nbsp;</li></ul></li><li style=\"margin-top: 0.25em;\"><code style=\"font-family: SFMono-Regular, Consolas, &quot;Liberation Mono&quot;, Menlo, Courier, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: rgba(27, 31, 35, 0.05); border-radius: 3px;\">dotnet new</code>&nbsp;templates&nbsp;</li></ul><p></p>"
           },
           "TitlePart": {
             "Title": "Orchard Core Beta 2"
@@ -3029,7 +3029,7 @@
             },
             "Picture": {
               "Paths": [
-                "Orchard/OrchardCore-Logo.png"
+                "Orchard/OrchardCore-Logo.webp"
               ]
             }
           },
@@ -3041,7 +3041,7 @@
             "Absolute": false
           },
           "HtmlBodyPart": {
-            "Html": "<p>Orchard Core is available in Beta 3:&nbsp;<a href=\"https://github.com/OrchardCMS/OrchardCore/releases/tag/1.0.0-beta3\">https://github.com/OrchardCMS/OrchardCore/releases/tag/1.0.0-beta3</a> </p><h2>Open-source, modular, multi-tenant application framework and CMS for ASP.NET Core</h2><br><p>{{ \"Orchard/OrchardCore-Logo.png\" | asset_url | img_tag }}</p><h3>Flexible content management&nbsp;</h3><p>Define custom content types dynamically and reuse content fields. Define roles and permissions for all your users.&nbsp;<br><br></p><h3>Full, decoupled, or headless cms&nbsp;</h3><p>You can separate the content management from the front-end by using GraphQL, and create SPA applications or even static websites.&nbsp;</p><br><h3>Modular&nbsp;</h3><p>Every feature is a module which ships as a Nuget package, can be enabled, disabled or replaced. Create your own ecosystem of modules, or reuse existing ones to bootstrap your applications.</p><br><h3>Multi-tenant</h3><p>A single installation lets you manage multiple sites. The notion of Recipe lets you write reusable websites templates.&nbsp;</p><br><h3>Speed&nbsp;</h3><p>Between the fast performance of ASP.NET Core and the architectural choices of Orchard Core CMS, you get one of the fastest CMS solutions you have ever tried, on any OS (Windows, Linux, MacOS).&nbsp;</p><br><h3>Workflows&nbsp;</h3><p>Create content validation workflows, and define Web Hooks to trigger external processes or react to external events&nbsp;</p><br><h2 style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(33, 37, 41);\">List of changes for this release</h2><ul><li>Update to ASP.NET Core 2.2</li><li style=\"margin-top: 0.25em;\">GraphQL for all Content</li><li style=\"margin-top: 0.25em;\">Facebook, Microsoft Account, Google and Twitter authentication</li><li style=\"margin-top: 0.25em;\">ASP.NET Configuration support</li><li style=\"margin-top: 0.25em;\">Decoupled and headless CMS support</li><li style=\"margin-top: 0.25em;\">Improved performance</li><li style=\"margin-top: 0.25em;\">Background tasks management</li><li style=\"margin-top: 0.25em;\">Taxonomies module</li><li style=\"margin-top: 0.25em;\">Custom navigation</li><li style=\"margin-top: 0.25em;\">ReCaptcha module</li><li style=\"margin-top: 0.25em;\">Mini Profiler module</li><li style=\"margin-top: 0.25em;\">Recipe migrations</li><li style=\"margin-top: 0.25em;\">File based Content Definition</li><li style=\"margin-top: 0.25em;\">The Coming Soon theme</li><li style=\"margin-top: 0.25em;\">Edit and Display modes</li></ul>"
+            "Html": "<p>Orchard Core is available in Beta 3:&nbsp;<a href=\"https://github.com/OrchardCMS/OrchardCore/releases/tag/1.0.0-beta3\">https://github.com/OrchardCMS/OrchardCore/releases/tag/1.0.0-beta3</a> </p><h2>Open-source, modular, multi-tenant application framework and CMS for ASP.NET Core</h2><br><p>{{ \"Orchard/OrchardCore-Logo.webp\" | asset_url | img_tag }}</p><h3>Flexible content management&nbsp;</h3><p>Define custom content types dynamically and reuse content fields. Define roles and permissions for all your users.&nbsp;<br><br></p><h3>Full, decoupled, or headless cms&nbsp;</h3><p>You can separate the content management from the front-end by using GraphQL, and create SPA applications or even static websites.&nbsp;</p><br><h3>Modular&nbsp;</h3><p>Every feature is a module which ships as a Nuget package, can be enabled, disabled or replaced. Create your own ecosystem of modules, or reuse existing ones to bootstrap your applications.</p><br><h3>Multi-tenant</h3><p>A single installation lets you manage multiple sites. The notion of Recipe lets you write reusable websites templates.&nbsp;</p><br><h3>Speed&nbsp;</h3><p>Between the fast performance of ASP.NET Core and the architectural choices of Orchard Core CMS, you get one of the fastest CMS solutions you have ever tried, on any OS (Windows, Linux, MacOS).&nbsp;</p><br><h3>Workflows&nbsp;</h3><p>Create content validation workflows, and define Web Hooks to trigger external processes or react to external events&nbsp;</p><br><h2 style=\"font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; color: rgb(33, 37, 41);\">List of changes for this release</h2><ul><li>Update to ASP.NET Core 2.2</li><li style=\"margin-top: 0.25em;\">GraphQL for all Content</li><li style=\"margin-top: 0.25em;\">Facebook, Microsoft Account, Google and Twitter authentication</li><li style=\"margin-top: 0.25em;\">ASP.NET Configuration support</li><li style=\"margin-top: 0.25em;\">Decoupled and headless CMS support</li><li style=\"margin-top: 0.25em;\">Improved performance</li><li style=\"margin-top: 0.25em;\">Background tasks management</li><li style=\"margin-top: 0.25em;\">Taxonomies module</li><li style=\"margin-top: 0.25em;\">Custom navigation</li><li style=\"margin-top: 0.25em;\">ReCaptcha module</li><li style=\"margin-top: 0.25em;\">Mini Profiler module</li><li style=\"margin-top: 0.25em;\">Recipe migrations</li><li style=\"margin-top: 0.25em;\">File based Content Definition</li><li style=\"margin-top: 0.25em;\">The Coming Soon theme</li><li style=\"margin-top: 0.25em;\">Edit and Display modes</li></ul>"
           },
           "TitlePart": {
             "Title": "Orchard Core Beta 3"
@@ -3068,7 +3068,7 @@
             },
             "Picture": {
               "Paths": [
-                "Orchard/OrchardCore-Logo.png"
+                "Orchard/OrchardCore-Logo.webp"
               ]
             }
           },
@@ -3080,7 +3080,7 @@
             "Absolute": false
           },
           "HtmlBodyPart": {
-            "Html": "<p>Today, we are really proud to announce that the first version of <strong>Orchard Core</strong> has been released in Beta.</p><p><span style=\"color: inherit; font-family: inherit; font-size: 2rem;\">What is Orchard Core and Orchard Core CMS?</span><br></p><br><p><strong>Orchard Core</strong> is a Modular and Extensible Application Framework developped on the .NET Core ecosystem.<br><span style=\"font-size: 1rem;\">It allows you to create Multi tenant SaaS applications and host multiple sites with only one instance.<br></span><span style=\"font-size: 1rem;\"><strong>Orchard Core CMS</strong> is a full featured Content Management System that provides many useful modules.<br></span><span style=\"font-size: 1rem;\">With it, you can easily enable existing features or add your own modules to extend your application.</span></p><p>{{ \"Orchard/OrchardCore-Logo.png\" | asset_url | img_tag }}</p><h2>What features are available?</h2><p>These features are available out of the box:</p><ul><li><strong style=\"font-size: 1rem;\">Nuget Packages</strong><span style=\"font-size: 1rem;\">: Add reference in your application to Orchard Core Nuget packages.</span><br></li><li><strong style=\"font-size: 1rem;\">Performance</strong><span style=\"font-size: 1rem;\">: Handle many requests per second by default and even more with Response Cache.</span><br></li><li><strong style=\"font-size: 1rem;\">Portable </strong><span style=\"font-size: 1rem;\">: You can develop and deploy on multiple platforms : Windows, Mac and Linux.</span><br></li><li><strong style=\"font-size: 1rem;\">Deployment</strong><span style=\"font-size: 1rem;\">: Import/Export the data and the structure of your site with deployment plans.</span><br></li><li><strong style=\"font-size: 1rem;\">Setup</strong><span style=\"font-size: 1rem;\">: Use different recipes to setup your site with initial features and content types using configurable steps and dynamic parameters.&nbsp;</span><br></li><li><strong style=\"font-size: 1rem;\">Storage</strong><span style=\"font-size: 1rem;\">: YesSQL allows you to store your contents in SQL Server, SQLite, MySQL or PostgreSQL as if it was a document database.</span><br></li></ul><p>Many other modules can allow you to create a CMS:</p><ul><li>Create your <strong>Content Types</strong> adding out of the box predefined Parts and Fields.<br></li><li>Customize your site using <strong>Themes </strong>with ASP.NET Razor or Liquid syntax files.<br></li><li>Define different <strong>Zones</strong> on the site and add <strong>Widgets </strong>anywhere in your pages.<br></li><li>Declare <strong>Templates </strong>in admin that overrides the rendering of your content types.<br></li><li>Edit your content with <strong>Wysiwyg </strong>or <strong>Mardown </strong>editors that can use <strong>Liquid filters</strong>.<br></li><li>Get a <strong>Live Preview</strong> of your content in separate window while editing it from the admin.<br></li><li>Manage the <strong>Users, Roles and Permissions</strong> to give access to the Admin dashboard pages.<br></li><li>Manage your Assets and Media folders, upload files and add link to dynamically resized pictures.<br></li><li>Organize your <strong>Contents </strong>and navigate in the site: Lists, Menus, Taxonomies, Urls, ...<br></li><li>Search: <strong>Index</strong> your data and <strong>Query </strong>them in <strong>Sql </strong>or <strong>Lucene </strong>using Liquid syntax.<br></li></ul><br><h2>What is the current Status?</h2><p>Orchard Core is currently in <strong>Beta</strong>. See the <a href=\"https://github.com/OrchardCMS/OrchardCore/wiki/Roadmap\" target=\"_blank\">Roadmap</a>&nbsp;for more details. <br><span style=\"font-size: 1rem;\">This is an <strong>Open Source</strong> project so everyone can contribute and help in many ways to make it grows.</span></p><br><h2>How do I get started?</h2><p>Create an application using Orchard Core is as easy as adding a Nuget package reference to your <strong>ASP.NET Core project</strong> and configure two lines in the startup.cs file.<br><span style=\"font-size: 1rem;\">You can have a running instance in less than 5 minutes following this <a href=\"http://www.ideliverable.com/blog/getting-started-with-orchard-core-as-a-nuget-package\" target=\"_blank\">tutorial</a>.</span></p><br><h2>Useful links:</h2><p>GitHub repository : <a href=\"https://github.com/OrchardCMS/OrchardCore\" target=\"_blank\">https://github.com/OrchardCMS/OrchardCore</a><br><span style=\"font-size: 1rem;\">Gitter chat room : </span><a href=\"https://gitter.im/OrchardCMS/OrchardCore\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-size: 1rem;\">https://gitter.im/OrchardCMS/OrchardCore</a><br><span style=\"font-size: 1rem;\">Orchard Project site : </span><a href=\"http://orchardproject.net/\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-size: 1rem;\">http://orchardproject.net</a><br><span style=\"font-size: 1rem;\">Orchard Core documentation : </span><a href=\"http://orchardcore.readthedocs.io\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-size: 1rem;\">http://orchardcore.readthedocs.io</a></p><br>"
+            "Html": "<p>Today, we are really proud to announce that the first version of <strong>Orchard Core</strong> has been released in Beta.</p><p><span style=\"color: inherit; font-family: inherit; font-size: 2rem;\">What is Orchard Core and Orchard Core CMS?</span><br></p><br><p><strong>Orchard Core</strong> is a Modular and Extensible Application Framework developped on the .NET Core ecosystem.<br><span style=\"font-size: 1rem;\">It allows you to create Multi tenant SaaS applications and host multiple sites with only one instance.<br></span><span style=\"font-size: 1rem;\"><strong>Orchard Core CMS</strong> is a full featured Content Management System that provides many useful modules.<br></span><span style=\"font-size: 1rem;\">With it, you can easily enable existing features or add your own modules to extend your application.</span></p><p>{{ \"Orchard/OrchardCore-Logo.webp\" | asset_url | img_tag }}</p><h2>What features are available?</h2><p>These features are available out of the box:</p><ul><li><strong style=\"font-size: 1rem;\">Nuget Packages</strong><span style=\"font-size: 1rem;\">: Add reference in your application to Orchard Core Nuget packages.</span><br></li><li><strong style=\"font-size: 1rem;\">Performance</strong><span style=\"font-size: 1rem;\">: Handle many requests per second by default and even more with Response Cache.</span><br></li><li><strong style=\"font-size: 1rem;\">Portable </strong><span style=\"font-size: 1rem;\">: You can develop and deploy on multiple platforms : Windows, Mac and Linux.</span><br></li><li><strong style=\"font-size: 1rem;\">Deployment</strong><span style=\"font-size: 1rem;\">: Import/Export the data and the structure of your site with deployment plans.</span><br></li><li><strong style=\"font-size: 1rem;\">Setup</strong><span style=\"font-size: 1rem;\">: Use different recipes to setup your site with initial features and content types using configurable steps and dynamic parameters.&nbsp;</span><br></li><li><strong style=\"font-size: 1rem;\">Storage</strong><span style=\"font-size: 1rem;\">: YesSQL allows you to store your contents in SQL Server, SQLite, MySQL or PostgreSQL as if it was a document database.</span><br></li></ul><p>Many other modules can allow you to create a CMS:</p><ul><li>Create your <strong>Content Types</strong> adding out of the box predefined Parts and Fields.<br></li><li>Customize your site using <strong>Themes </strong>with ASP.NET Razor or Liquid syntax files.<br></li><li>Define different <strong>Zones</strong> on the site and add <strong>Widgets </strong>anywhere in your pages.<br></li><li>Declare <strong>Templates </strong>in admin that overrides the rendering of your content types.<br></li><li>Edit your content with <strong>Wysiwyg </strong>or <strong>Mardown </strong>editors that can use <strong>Liquid filters</strong>.<br></li><li>Get a <strong>Live Preview</strong> of your content in separate window while editing it from the admin.<br></li><li>Manage the <strong>Users, Roles and Permissions</strong> to give access to the Admin dashboard pages.<br></li><li>Manage your Assets and Media folders, upload files and add link to dynamically resized pictures.<br></li><li>Organize your <strong>Contents </strong>and navigate in the site: Lists, Menus, Taxonomies, Urls, ...<br></li><li>Search: <strong>Index</strong> your data and <strong>Query </strong>them in <strong>Sql </strong>or <strong>Lucene </strong>using Liquid syntax.<br></li></ul><br><h2>What is the current Status?</h2><p>Orchard Core is currently in <strong>Beta</strong>. See the <a href=\"https://github.com/OrchardCMS/OrchardCore/wiki/Roadmap\" target=\"_blank\">Roadmap</a>&nbsp;for more details. <br><span style=\"font-size: 1rem;\">This is an <strong>Open Source</strong> project so everyone can contribute and help in many ways to make it grows.</span></p><br><h2>How do I get started?</h2><p>Create an application using Orchard Core is as easy as adding a Nuget package reference to your <strong>ASP.NET Core project</strong> and configure two lines in the startup.cs file.<br><span style=\"font-size: 1rem;\">You can have a running instance in less than 5 minutes following this <a href=\"http://www.ideliverable.com/blog/getting-started-with-orchard-core-as-a-nuget-package\" target=\"_blank\">tutorial</a>.</span></p><br><h2>Useful links:</h2><p>GitHub repository : <a href=\"https://github.com/OrchardCMS/OrchardCore\" target=\"_blank\">https://github.com/OrchardCMS/OrchardCore</a><br><span style=\"font-size: 1rem;\">Gitter chat room : </span><a href=\"https://gitter.im/OrchardCMS/OrchardCore\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-size: 1rem;\">https://gitter.im/OrchardCMS/OrchardCore</a><br><span style=\"font-size: 1rem;\">Orchard Project site : </span><a href=\"http://orchardproject.net/\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-size: 1rem;\">http://orchardproject.net</a><br><span style=\"font-size: 1rem;\">Orchard Core documentation : </span><a href=\"http://orchardcore.readthedocs.io\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); font-size: 1rem;\">http://orchardcore.readthedocs.io</a></p><br>"
           },
           "TitlePart": {
             "Title": "Orchard Core Beta"
@@ -3762,24 +3762,24 @@
       "name": "media",
       "Files": [
         {
-          "SourcePath": "700x300.png",
-          "TargetPath": "700x300.png"
+          "SourcePath": "700x300.webp",
+          "TargetPath": "700x300.webp"
         },
         {
-          "SourcePath": "700x400.png",
-          "TargetPath": "700x400.png"
+          "SourcePath": "700x400.webp",
+          "TargetPath": "700x400.webp"
         },
         {
-          "SourcePath": "750x300.png",
-          "TargetPath": "750x300.png"
+          "SourcePath": "750x300.webp",
+          "TargetPath": "750x300.webp"
         },
         {
-          "SourcePath": "750x500.png",
-          "TargetPath": "750x500.png"
+          "SourcePath": "750x500.webp",
+          "TargetPath": "750x500.webp"
         },
         {
-          "SourcePath": "Orchard/OrchardCore-Logo.png",
-          "TargetPath": "Orchard/OrchardCore-Logo.png"
+          "SourcePath": "Orchard/OrchardCore-Logo.webp",
+          "TargetPath": "Orchard/OrchardCore-Logo.webp"
         },
         // The images below are from https://placeholder.com. Usage rules: https://placeholder.com/rules/
         {
