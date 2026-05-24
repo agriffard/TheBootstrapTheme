@@ -1,13 +1,13 @@
 @using OrchardCore.Entities
 @using OrchardCore.ContentManagement
 @{
-    var themeSettings = Site.As<ContentItem>("TheBootstrapThemeSettings");
-    var head = themeSettings?.Content?.TheBootstrapThemeSettings?.Head?.Text ?? string.Empty;
-    var foot = themeSettings?.Content?.TheBootstrapThemeSettings?.Foot?.Text ?? string.Empty;
-    var bg = themeSettings?.Content?.TheBootstrapThemeSettings?.Background?.Text ?? "dark";
-    var nav = themeSettings?.Content?.TheBootstrapThemeSettings?.Navigation?.Text ?? string.Empty;
-    string bootswatch = themeSettings?.Content?.TheBootstrapThemeSettings?.Bootswatch?.Text ?? string.Empty;
-    bool stickyFooter = themeSettings?.Content?.TheBootstrapThemeSettings?.StickyFooter?.Value ?? false;
+    var themeSettings = Site.GetOrCreate<ContentItem>("TheBootstrapThemeSettings");
+    var head = themeSettings.Content?.TheBootstrapThemeSettings?.Head?.Text ?? string.Empty;
+    var foot = themeSettings.Content?.TheBootstrapThemeSettings?.Foot?.Text ?? string.Empty;
+    var bg = themeSettings.Content?.TheBootstrapThemeSettings?.Background?.Text ?? "dark";
+    var nav = themeSettings.Content?.TheBootstrapThemeSettings?.Navigation?.Text ?? string.Empty;
+    string bootswatch = themeSettings.Content?.TheBootstrapThemeSettings?.Bootswatch?.Text ?? string.Empty;
+    bool stickyFooter = themeSettings.Content?.TheBootstrapThemeSettings?.StickyFooter?.Value ?? false;
     bool navbarFluid = (nav == "Fluid");
     string navbarClass = (bg != "light" ? "navbar-dark" : "text-dark") + " bg-" + bg;
     if (nav == "FixedTop")
